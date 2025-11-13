@@ -1,0 +1,242 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{church-lambdacalc}{article}{}
+      \name{author}{1}{}{%
+        {{hash=eb8fba5b5e50ff0f327f47041fe3f891}{%
+           family={Church},
+           familyi={C\bibinitperiod},
+           given={Alonzo},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{eb8fba5b5e50ff0f327f47041fe3f891}
+      \strng{fullhash}{eb8fba5b5e50ff0f327f47041fe3f891}
+      \strng{bibnamehash}{eb8fba5b5e50ff0f327f47041fe3f891}
+      \strng{authorbibnamehash}{eb8fba5b5e50ff0f327f47041fe3f891}
+      \strng{authornamehash}{eb8fba5b5e50ff0f327f47041fe3f891}
+      \strng{authorfullhash}{eb8fba5b5e50ff0f327f47041fe3f891}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Symbolic Logic}
+      \field{number}{1}
+      \field{title}{A Note on the Entscheidungsproblem}
+      \field{volume}{1}
+      \field{year}{1936}
+    \endentry
+    \entry{sep-church-turing}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=b527972a3908282d5e4210325e3022c0}{%
+           family={Copeland},
+           familyi={C\bibinitperiod},
+           given={B.\bibnamedelimi Jack},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=5ff1c29ff1cc8f6336533b0ffd842a79}{%
+           family={Zalta},
+           familyi={Z\bibinitperiod},
+           given={Edward\bibnamedelima N.},
+           giveni={E\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=47603970fcd579d567acd0cb66cdb242}{%
+           family={Nodelman},
+           familyi={N\bibinitperiod},
+           given={Uri},
+           giveni={U\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Metaphysics Research Lab, Stanford University}%
+      }
+      \strng{namehash}{b527972a3908282d5e4210325e3022c0}
+      \strng{fullhash}{b527972a3908282d5e4210325e3022c0}
+      \strng{bibnamehash}{b527972a3908282d5e4210325e3022c0}
+      \strng{authorbibnamehash}{b527972a3908282d5e4210325e3022c0}
+      \strng{authornamehash}{b527972a3908282d5e4210325e3022c0}
+      \strng{authorfullhash}{b527972a3908282d5e4210325e3022c0}
+      \strng{editorbibnamehash}{ab8d8ffb26096a29ec1c38ef9e4911c6}
+      \strng{editornamehash}{ab8d8ffb26096a29ec1c38ef9e4911c6}
+      \strng{editorfullhash}{ab8d8ffb26096a29ec1c38ef9e4911c6}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The {Stanford} Encyclopedia of Philosophy}
+      \field{edition}{{W}inter 2024}
+      \field{howpublished}{\url{https://plato.stanford.edu/archives/win2024/entries/church-turing/}}
+      \field{title}{{The Church-Turing Thesis}}
+      \field{year}{2024}
+    \endentry
+    \entry{amt-enigma}{book}{}
+      \name{author}{1}{}{%
+        {{hash=af4af1aaeaf8849af906a36e95a2bd53}{%
+           family={Hodges},
+           familyi={H\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Simon \& Schuster}%
+      }
+      \strng{namehash}{af4af1aaeaf8849af906a36e95a2bd53}
+      \strng{fullhash}{af4af1aaeaf8849af906a36e95a2bd53}
+      \strng{bibnamehash}{af4af1aaeaf8849af906a36e95a2bd53}
+      \strng{authorbibnamehash}{af4af1aaeaf8849af906a36e95a2bd53}
+      \strng{authornamehash}{af4af1aaeaf8849af906a36e95a2bd53}
+      \strng{authorfullhash}{af4af1aaeaf8849af906a36e95a2bd53}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Alan Turing: The Enigma}
+      \field{year}{1983}
+    \endentry
+    \entry{amt-a-3-1}{article}{}
+      \name{author}{1}{}{%
+        {{hash=76332c6371627eade995a45d9e642654}{%
+           family={Randell},
+           familyi={R\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{76332c6371627eade995a45d9e642654}
+      \strng{fullhash}{76332c6371627eade995a45d9e642654}
+      \strng{bibnamehash}{76332c6371627eade995a45d9e642654}
+      \strng{authorbibnamehash}{76332c6371627eade995a45d9e642654}
+      \strng{authornamehash}{76332c6371627eade995a45d9e642654}
+      \strng{authorfullhash}{76332c6371627eade995a45d9e642654}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{University of Newcastle Upon Tyne Computing Laboratory Technical Reports Series}
+      \field{number}{33}
+      \field{title}{On Alan Turing and the origins of digital computers}
+      \field{year}{1972}
+    \endentry
+    \entry{imitation-game}{misc}{}
+      \list{publisher}{1}{%
+        {Black Bear Pictures, Bristol Automotive Orange Corp}%
+      }
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labeltitlesource}{title}
+      \field{title}{The Imitation Game}
+      \field{year}{2014}
+    \endentry
+    \entry{amt-k-4}{unpublished}{}
+      \name{author}{1}{}{%
+        {{hash=1210277649f3c7541e2750ee21da6237}{%
+           family={Turing},
+           familyi={T\bibinitperiod},
+           given={Alan\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{fullhash}{1210277649f3c7541e2750ee21da6237}
+      \strng{bibnamehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{authorbibnamehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{authornamehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{authorfullhash}{1210277649f3c7541e2750ee21da6237}
+      \field{extraname}{1}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Typescript copy made by Mrs. Turing. Available only in French. Year of publicatioon not clear, estimated to be 1935}
+      \field{title}{Copy of first rough draft of précis of `Computable Numbers' made for `Comptes Rendues'}
+      \field{year}{1935}
+    \endentry
+    \entry{amt-d-2}{unpublished}{}
+      \name{author}{1}{}{%
+        {{hash=1210277649f3c7541e2750ee21da6237}{%
+           family={Turing},
+           familyi={T\bibinitperiod},
+           given={Alan\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{fullhash}{1210277649f3c7541e2750ee21da6237}
+      \strng{bibnamehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{authorbibnamehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{authornamehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{authorfullhash}{1210277649f3c7541e2750ee21da6237}
+      \field{extraname}{2}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Courtesy of Kings College Cambridge's Turing Digital Archive}
+      \field{title}{Letters from AMT to MHAN [Professor Max Newman] (c. 1940) mostly about Church's ``calculus of $\rm \lambda$ conversion'' but also about ``ordinal logics'' and Church's theory of types. + 1 unsent to Church}
+      \field{year}{1940}
+    \endentry
+    \entry{amt-b-12}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1210277649f3c7541e2750ee21da6237}{%
+           family={Turing},
+           familyi={T\bibinitperiod},
+           given={Alan\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{fullhash}{1210277649f3c7541e2750ee21da6237}
+      \strng{bibnamehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{authorbibnamehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{authornamehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{authorfullhash}{1210277649f3c7541e2750ee21da6237}
+      \field{extraname}{3}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the London Mathematical Society}
+      \field{number}{2}
+      \field{title}{On computable numbers, with an application to the Entscheidungsproblem}
+      \field{volume}{42}
+      \field{year}{1937}
+    \endentry
+    \entry{amt-c-2}{unpublished}{}
+      \name{author}{1}{}{%
+        {{hash=1210277649f3c7541e2750ee21da6237}{%
+           family={Turing},
+           familyi={T\bibinitperiod},
+           given={Alan\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{fullhash}{1210277649f3c7541e2750ee21da6237}
+      \strng{bibnamehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{authorbibnamehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{authornamehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{authorfullhash}{1210277649f3c7541e2750ee21da6237}
+      \field{extraname}{4}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{A blueprint of what appears to be a machine ot graph the Zeta function}
+      \field{title}{Zeta function machine}
+      \field{year}{1939}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

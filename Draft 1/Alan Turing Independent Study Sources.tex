@@ -1,0 +1,57 @@
+\documentclass[10pt]{article}
+\usepackage{biblatex}
+\addbibresource{refs.bib}
+
+\DeclareLabelname[movie]{
+    \field{director}
+    \field{producer}
+}
+
+\begin{document}
+    This document contains my high-level notes on sources by or related to Alan Turing or his work.
+    I have not fully looked over all of these docuemnts but do intend to. 
+    I intend to use many of them for the deliverable from this independant study, a series of 1-2 page papers about the life and work of Alan Turing.
+    Most documents here come from the Turing Digital Archive from Kings College Cambridge\footnote{\url{https://turingarchive.kings.cam.ac.uk}}.
+
+    Some terms used here include ``Entscheidungsproblem'' (German for ``decision problem''), ``Bletchley Park'' (the location where Turing worked to crack the Enigma code during the second world war), and ``Turing Machine'' (a theoretical machine devised by Alan Turing which reads symbols and performs operations with them based on an algorithm, which is the basis for computers).
+
+    \section{General/Uncategorized Sources}
+    
+        \begin{enumerate}
+            \item   \cite{amt-enigma} Long-form biography of Alan Turing. Good explanation of concepts included within Turing's work. Poor citation of sources not drectly quoted.
+            \item   \cite{amt-b-12} Alan Turing's early most notable paper, which laid the groundwork for computer science. It effectively proved that a machine or algorithm that can always conclusively say if something is computable or not is impossible.
+            \item   \cite{amt-c-2} A blueprint of a machine that appears to be intended to graph the Riemann zeta function ($\zeta (s) = \sum_{n = 1}^{\infty} \frac{1}{n^s}$) for some complex $s$.
+            \item   \cite{imitation-game} A biographical film about Turing, focused on his time at Bletchley Park working on cracking the Enigma Code.
+        \end{enumerate}
+        
+    \section{On Computable Numbers}
+        \begin{enumerate}
+            \item   \cite{amt-b-12} Turing's paper \textit{On Computable Numbers}, which (among other things) described what is now refered to as a Turing Machine. Much of theoretical computer science is based on the Turing machine, which is in theory able to implement any algorithm.
+            \item   \cite{amt-k-4} What appears to be an early rough draft of Turing's \textit{On Computable Numbers}. It is in the French language and is very short, especially compared to the final paper. It is typeset.
+        \end{enumerate}
+
+    \section{Church and Lambda Calculus}
+        This would encompass a paper about Alonzo Church's influence on theoretical computer science through his solution to the Entscheidungsproblem.
+        \begin{enumerate}
+            \item   \cite{amt-d-2} This is a part of a correspondence between Turing and mathmatician Max Newmann regarding Alonzo Church (Turing's Thesis Advisor at Princeton University) and his Lambda Calculus. It appears to be from soon after Turing's 1938 return to Cambridge after leaving Princeton.
+            \item   \cite{church-lambdacalc} Alonzo Church's paper on the Entscheidungsproblem appearing slightly before Turing's On Computable Numbers \cite{amt-b-12}
+            \item   \cite{amt-b-12} Alan Turing's paper with a solution to the Entscheidungsproblem. Some versions include an appendix comparing Turing's solution to lambda calculus solution by Church
+            \item   \cite{sep-church-turing} Church-Turing Thesis is a foundation of Theoretical Computer Science
+        \end{enumerate}
+
+    \section{Legacy and Post Mortem}
+        A lot of sources are post mortem documents of or related to Turing.
+        It could be used to answer a question of how Turing was regarded among his contempoaries towards the end of his life or over time after his death.
+        Since Turing's death was as a result of suicide and came after an attempted treatment of homosexuality\cite{amt-enigma}, these could be used to look into that as well.
+        \begin{enumerate}
+            \item   Many documents under AMT-A-1 in the Turing Digital Archive\footnote[1]{\url{https://turingarchive.kings.cam.ac.uk}} are classified as obituaries and tributes to Turing.
+            \item   Many documents under AMT-A-2 in the Turing Digital Archive$^1$ are about Turing's work and its effects and legacies in later years starting in 1946, extending to 1971 (several decades after his death).
+            \item   \cite{amt-a-3-1} Brian Randell investigated the connection between Alan Turing and early computer development. The papers about Turing's time at Bletchley Park were not fully available at the time.
+        \end{enumerate}
+
+    % \subsection*{Final Notes}
+    %     While I believe I can complete this in a timely manner, I do believe that I will fall behind soon.
+    %     I spent too much time reading Hodges'book on Turing and not enough time looking at prmary sources. I will resolve this.
+
+    \printbibliography
+\end{document}

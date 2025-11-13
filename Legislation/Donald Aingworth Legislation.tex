@@ -1,0 +1,42 @@
+\documentclass{article}
+\usepackage{parskip}
+\usepackage{enumitem}
+
+\newlist{level}{enumerate}{10}
+\setlist[level]{label*=\arabic*., font=\maybeHeadItem}
+\newcommand{\headItem}[1]{\global\isHeadtrue\item {\bfseries #1}}
+\newcommand{\maybeHeadItem}{%
+    \ifisHead\bfseries\global\isHeadfalse\fi%
+}
+\newif\ifisHead
+\pagenumbering{gobble}
+
+\NewDocumentCommand{\subject}{ m }{%
+    \begin{center}
+        \bfseries%
+        POLI 1 Bill 2: #1%
+    \end{center}
+}%
+\NewDocumentCommand{\name}{ m }{{\bfseries #1}}
+\NewDocumentCommand{\email}{ m }{ #1 }
+
+\begin{document}
+\subject{A Bill for the Expansion of the House of Representatives}
+\begin{level}
+    \item[Section 1]    This bill may be referred to as ``The Congressional Expansion Act of 2026''.
+    \item[Section 2]    The United States House of Representatives will increase in membership from 438 members to 1438 members between 2032 and 2102.
+    \item[Section 3]    The rate of increase will vary increasingly by year.
+    \begin{level}
+        \item[3.1]  In 2032, the House of Representatives will increase in membership from 438 members to 538 members.
+        \item[3.2]  In 2042, the House of Representatives will increase in membership from 538 members to 638 members.
+        \item[3.3]  In 2052, the House of Representatives will increase in membership from 638 members to 838 members.
+        \item[3.4]  In subsequent years ending in the number 2 and while there are no more than 1437 members of the House of Representatives, the House of Representatives will increase in membership by 200 members.
+    \end{level}
+    \item[Section 4]    The new seats resultant from this bill will be apportioned as part of the apportionment of seats of the House of Representatives between states subsequent each census.
+    \item[Section 5]    This legislation will go into effect on January 1 of 2026.
+\end{level}
+\begin{center}
+    \textit{Presented to the Student Congress by Donald Aingworth (IV) of Wyoklahoma.}
+\end{center}
+
+\end{document}
