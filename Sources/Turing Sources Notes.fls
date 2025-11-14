@@ -1,94 +1,94 @@
-PWD /Users/dentonaingworth/Documents/CCSF/POLI 1/Sources
-INPUT /usr/local/texlive/2024/texmf.cnf
-INPUT /usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf
-INPUT /usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/dentonaingworth/Documents/CCSF/POLI 1/Sources/Turing Sources Notes.tex
+PWD c:\Users\ddent\OneDrive\Documents\CCSF\POLI-1\Sources
+INPUT C:\Users\ddent\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT c:\Users\ddent\OneDrive\Documents\CCSF\POLI-1\Sources\Turing Sources Notes.tex
 OUTPUT Turing Sources Notes.log
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/base/size10.clo
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/base/size10.clo
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/base/size10.clo
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.sty
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.sty
-INPUT /usr/local/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-INPUT /usr/local/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-INPUT /usr/local/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty
-INPUT /usr/local/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty
-INPUT /usr/local/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
-INPUT /usr/local/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
-INPUT /usr/local/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-INPUT /usr/local/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/logreq/logreq.sty
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/logreq/logreq.sty
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/logreq/logreq.def
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/logreq/logreq.def
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/logreq/logreq.def
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/url/url.sty
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/url/url.sty
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/blx-dm.def
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/blx-dm.def
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/blx-dm.def
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/blx-compat.def
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/blx-compat.def
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/blx-compat.def
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.def
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.def
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.def
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.cfg
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.cfg
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.cfg
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-INPUT ./Turing Sources Notes.aux
-INPUT ./Turing Sources Notes.aux
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\base\size10.clo
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\base\size10.clo
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\base\size10.clo
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\biblatex.sty
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\biblatex.sty
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\logreq\logreq.sty
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\logreq\logreq.sty
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\logreq\logreq.def
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\logreq\logreq.def
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\logreq\logreq.def
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\blx-dm.def
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\blx-dm.def
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\blx-dm.def
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\blx-compat.def
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\blx-compat.def
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\blx-compat.def
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\biblatex.def
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\biblatex.def
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\biblatex.def
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\bbx\numeric.bbx
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\bbx\numeric.bbx
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\bbx\numeric.bbx
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\bbx\standard.bbx
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\bbx\standard.bbx
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\bbx\standard.bbx
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\cbx\numeric.cbx
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\cbx\numeric.cbx
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\cbx\numeric.cbx
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\biblatex.cfg
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\biblatex.cfg
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\biblatex.cfg
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\blx-case-expl3.sty
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\blx-case-expl3.sty
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
+INPUT .\Turing Sources Notes.aux
+INPUT .\Turing Sources Notes.aux
 INPUT Turing Sources Notes.aux
 OUTPUT Turing Sources Notes.aux
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\english.lbx
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\english.lbx
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\english.lbx
 OUTPUT Turing Sources Notes.bcf
 INPUT Turing Sources Notes.bbl
-INPUT ./Turing Sources Notes.bbl
-INPUT ./Turing Sources Notes.bbl
-INPUT ./Turing Sources Notes.bbl
+INPUT .\Turing Sources Notes.bbl
+INPUT .\Turing Sources Notes.bbl
+INPUT .\Turing Sources Notes.bbl
 INPUT Turing Sources Notes.bbl
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
 OUTPUT Turing Sources Notes.pdf
-INPUT /usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT C:\Users\ddent\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT Turing Sources Notes.aux
 INPUT Turing Sources Notes.run.xml
 OUTPUT Turing Sources Notes.run.xml
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb

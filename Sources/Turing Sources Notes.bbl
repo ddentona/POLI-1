@@ -27,6 +27,16 @@
       \field{title}{Alan Mathison Turing}
       \field{year}{1954}
     \endentry
+    \entry{amt-a-1-manchester57}{article}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Manchester Guardian}
+      \field{number}{11}
+      \field{title}{Article on Death of Alan Turing}
+      \field{volume}{June}
+      \field{year}{1957}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
