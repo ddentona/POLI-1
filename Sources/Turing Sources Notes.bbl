@@ -33,9 +33,31 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Manchester Guardian}
       \field{number}{11}
-      \field{title}{Article on Death of Alan Turing}
+      \field{title}{Article of Verdict of the Death of Alan Turing}
       \field{volume}{June}
       \field{year}{1957}
+    \endentry
+    \entry{amt-k-4}{unpublished}{}
+      \name{author}{1}{}{%
+        {{hash=1210277649f3c7541e2750ee21da6237}{%
+           family={Turing},
+           familyi={T\bibinitperiod},
+           given={Alan\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{fullhash}{1210277649f3c7541e2750ee21da6237}
+      \strng{bibnamehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{authorbibnamehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{authornamehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{authorfullhash}{1210277649f3c7541e2750ee21da6237}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Typescript copy made by Mrs. Turing. Available only in French. Year of publicatioon not clear, estimated to be 1935}
+      \field{title}{Copy of first rough draft of précis of `Computable Numbers' made for `Comptes Rendues'}
+      \field{year}{1935}
     \endentry
   \enddatalist
 \endrefsection
