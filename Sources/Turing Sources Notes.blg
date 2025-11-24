@@ -1,15 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'Turing Sources Notes.blg'
-[148] biber-MSWIN64:340> INFO - === 
-[209] Biber.pm:419> INFO - Reading 'Turing Sources Notes.bcf'
-[355] Biber.pm:979> INFO - Found 3 citekeys in bib section 0
-[372] Biber.pm:4419> INFO - Processing section 0
-[393] Biber.pm:4610> INFO - Looking for bibtex file '../refs.bib' for section 0
-[464] bibtex.pm:1713> INFO - LaTeX decoding ...
-[480] bibtex.pm:1519> INFO - Found BibTeX data source '../refs.bib'
-[551] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[551] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[551] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[551] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[556] bbl.pm:660> INFO - Writing 'Turing Sources Notes.bbl' with encoding 'UTF-8'
-[557] bbl.pm:763> INFO - Output to Turing Sources Notes.bbl
+[31] biber-darwin:340> INFO - === Sun Nov 23, 2025, 08:51:41
+[39] Biber.pm:419> INFO - Reading 'Turing Sources Notes.bcf'
+[77] Biber.pm:979> INFO - Found 3 citekeys in bib section 0
+[84] Biber.pm:4419> INFO - Processing section 0
+[89] Biber.pm:4610> INFO - Looking for bibtex file '../refs.bib' for section 0
+[89] bibtex.pm:1713> INFO - LaTeX decoding ...
+[95] bibtex.pm:1519> INFO - Found BibTeX data source '../refs.bib'
+[112] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[112] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[112] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[112] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[114] bbl.pm:660> INFO - Writing 'Turing Sources Notes.bbl' with encoding 'UTF-8'
+[114] bbl.pm:763> INFO - Output to Turing Sources Notes.bbl
