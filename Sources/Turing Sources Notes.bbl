@@ -37,6 +37,67 @@
       \field{volume}{June}
       \field{year}{1957}
     \endentry
+    \entry{ne-jubilee}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a9ef2032bc3567bfefd9b7c1a1785b84}{%
+           family={Enticknap},
+           familyi={E\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{a9ef2032bc3567bfefd9b7c1a1785b84}
+      \strng{fullhash}{a9ef2032bc3567bfefd9b7c1a1785b84}
+      \strng{bibnamehash}{a9ef2032bc3567bfefd9b7c1a1785b84}
+      \strng{authorbibnamehash}{a9ef2032bc3567bfefd9b7c1a1785b84}
+      \strng{authornamehash}{a9ef2032bc3567bfefd9b7c1a1785b84}
+      \strng{authorfullhash}{a9ef2032bc3567bfefd9b7c1a1785b84}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Resurrection}
+      \field{number}{20}
+      \field{title}{Computing's Golden Jubilee}
+      \field{volume}{Summer}
+      \field{year}{1998}
+    \endentry
+    \entry{amt-k-5}{letter}{}
+      \name{author}{1}{}{%
+        {{hash=62573112049d1c26366be87e3f0e25f6}{%
+           family={Starchey},
+           familyi={S\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+      }
+      \name{recipient}{1}{}{%
+        {{hash=d6d9f41ce7ab57b0d45edbe153331923}{%
+           family={Turing},
+           familyi={T\bibinitperiod},
+           given={Alan},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Harrow}%
+      }
+      \strng{namehash}{62573112049d1c26366be87e3f0e25f6}
+      \strng{fullhash}{62573112049d1c26366be87e3f0e25f6}
+      \strng{bibnamehash}{62573112049d1c26366be87e3f0e25f6}
+      \strng{authorbibnamehash}{62573112049d1c26366be87e3f0e25f6}
+      \strng{authornamehash}{62573112049d1c26366be87e3f0e25f6}
+      \strng{authorfullhash}{62573112049d1c26366be87e3f0e25f6}
+      \strng{recipientbibnamehash}{d6d9f41ce7ab57b0d45edbe153331923}
+      \strng{recipientnamehash}{d6d9f41ce7ab57b0d45edbe153331923}
+      \strng{recipientfullhash}{d6d9f41ce7ab57b0d45edbe153331923}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{15}
+      \field{month}{5}
+      \field{title}{Letter to Alan Turing about his Radio Broadcast}
+      \field{year}{1951}
+      \field{dateera}{ce}
+    \endentry
     \entry{amt-b-5}{misc}{}
       \name{author}{1}{}{%
         {{hash=1210277649f3c7541e2750ee21da6237}{%

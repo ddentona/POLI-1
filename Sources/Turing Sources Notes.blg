@@ -1,21 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'Turing Sources Notes.blg'
-[137] biber-MSWIN64:340> INFO - === 
-[185] Biber.pm:419> INFO - Reading 'Turing Sources Notes.bcf'
-[313] Biber.pm:979> INFO - Found 4 citekeys in bib section 0
-[329] Biber.pm:4419> INFO - Processing section 0
-[345] Biber.pm:4610> INFO - Looking for bibtex file '../refs.bib' for section 0
-[416] bibtex.pm:1713> INFO - LaTeX decoding ...
-[449] bibtex.pm:1519> INFO - Found BibTeX data source '../refs.bib'
-[524] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[524] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[525] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[525] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[529] bbl.pm:660> INFO - Writing 'Turing Sources Notes.bbl' with encoding 'UTF-8'
-[531] bbl.pm:763> INFO - Output to Turing Sources Notes.bbl
-[531] Biber.pm:131> WARN - legacy month field 'May 15' in entry 'amt-b-5' is not an integer - this will probably not sort properly.
-[531] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\ddent\AppData\Local\Temp\biber_tmp_Apto\8fe4c9854184545302f21ebf0d47516c_4044.utf8, line 10, warning: 2 characters of junk seen at toplevel
-[531] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\ddent\AppData\Local\Temp\biber_tmp_Apto\8fe4c9854184545302f21ebf0d47516c_4044.utf8, line 29, warning: 2 characters of junk seen at toplevel
-[531] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\ddent\AppData\Local\Temp\biber_tmp_Apto\8fe4c9854184545302f21ebf0d47516c_4044.utf8, line 99, warning: 2 characters of junk seen at toplevel
-[531] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\ddent\AppData\Local\Temp\biber_tmp_Apto\8fe4c9854184545302f21ebf0d47516c_4044.utf8, line 108, warning: 5 characters of junk seen at toplevel
-[532] Biber.pm:133> INFO - WARNINGS: 5
+[25] biber-darwin:340> INFO - === Sat Nov 29, 2025, 21:44:35
+[31] Biber.pm:419> INFO - Reading 'Turing Sources Notes.bcf'
+[63] Biber.pm:979> INFO - Found 6 citekeys in bib section 0
+[69] Biber.pm:4419> INFO - Processing section 0
+[73] Biber.pm:4610> INFO - Looking for bibtex file '../refs.bib' for section 0
+[75] bibtex.pm:1713> INFO - LaTeX decoding ...
+[83] bibtex.pm:1519> INFO - Found BibTeX data source '../refs.bib'
+[134] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[134] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[134] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[134] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[136] bbl.pm:660> INFO - Writing 'Turing Sources Notes.bbl' with encoding 'UTF-8'
+[137] bbl.pm:763> INFO - Output to Turing Sources Notes.bbl

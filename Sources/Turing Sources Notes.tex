@@ -1,9 +1,19 @@
 \documentclass{article}
-\usepackage{biblatex}
+\usepackage[citestyle=numeric,datamodel=../citationfields]{biblatex}
 \addbibresource{../refs.bib}
+\usepackage{../citationformats}
 \usepackage{hyperref}
+\usepackage{bookmark}
 \usepackage{ulem}
 
+% \DeclareLabelname[letter]{
+% 	\field{author}
+% 	\field{addressee}
+% 	\field{date}
+% 	\field{location}
+% 	\field{title}
+% 	\field{note}
+% }
 \DeclareLabelname[movie]{
     \field{director}
     \field{producer}
@@ -16,8 +26,8 @@
 \begin{document}
 	\section{Biographical and Personal Documents}
 		\subsection{AMT-A-1}
-			\subsubsection{Kings Report\cite{amt-a-1-kings}}
-				Appears to be obituaries, potentially by Kings College Cambridge, in 1954.
+			\subsubsection{Kings Report}
+				\cite{amt-a-1-kings}Appears to be obituaries, potentially by Kings College Cambridge, in 1954.
 				Notes Turing as not finding interest in Part I of Tripos.
 				Notes his interest in formal logic and ordinal logic.
 				Very little on his work in WW2.
@@ -33,7 +43,8 @@
 					[H]e was found dead in his house at Wilmslow on Cheshire.
 				\end{quotation}
 
-			\subsubsection{Manchester Guardian 1957\cite{amt-a-1-manchester57}}
+			\subsubsection{Manchester Guardian 1957}
+				Published in Machester Guardian in 1957\cite{amt-a-1-manchester57}.
 				Reports verdict on death of Alan Turing.
 				Notes that death was ruled as suicide by cyanide poisoning.
 				Evidence comes from bubbling contents of a pan and the smell of almonds.
@@ -58,14 +69,79 @@
 		\subsection{}
 		\subsection{}
 		\subsection{}
-		\subsection{Can Digital Computers Think?\cite{amt-b-5} (1951)}
+		\subsection{Can Digital Computers Think? (1951)}
+			Appears to be a transcript or prepard oration of a radio broadcast by Turing May 15, 1951\cite{amt-b-5}.
+
+			\subsubsection{Page 1}
 			Attempts to explain different perspectives of whether machines are effectively brains.
 
 			Towards start, quotes Ada Lovelace.
 			
 			\begin{quote}
-				Their outlook was well summed up by Lady Lovelace over a hundred years ago, speaking of Babbage's Analytical Engine. She said, as Hartree has already quoted, `The Analytcal Machne has no pretensions whatever whatever to orginate anything. It do whatever we know how to order it to perform.'
+				Their outlook was well summed up by Lady Lovelace over a hundred years ago, speaking of Babbage's Analytical Engine. 
+				She said, as Hartree has already quoted, `The Analytcal Machne has no pretensions whatever whatever to orginate anything. 
+				It can do whatever we know how to order it to perform.'
 			\end{quote}
+
+			\subsubsection{Page 2}
+				Sets out a claim that the brain could be imitated by a machine in certain circumstances and with certain assumptions.
+				\begin{quote}
+					If now some particular machine can be described as a brain we have only to programme our digital computer to imitate it and it will also be a brain.
+				\end{quote}
+
+			\subsubsection{Page 3}
+				Makes a comment about the Indeterminacy Principle (likely refering to the Heisenberg\footnote[1]{Say his name} Uncertainty Principle) saying a computer to imitate the human brain is impossible due to some things being unpredictable by calculation.
+				The Heisenberg$^1$ Uncertainty Principle refers to the inability to know precisely where a quantum particle is and what its momentum is at the same time.
+				This could be in reference to the brain, in which the action potential produced by neurons is an electrical impulse, although this is in the form of Sodium and Potassium ions rather than electrons, so this is less likely.
+				This could also be in reference to the computers using electricity, which is conducted through metals (in wires) in our current day.
+				I'm unsure how electricity was conducted in the machines Turing worked with.
+				Turing credits this argument to Sir Arthur Eddington\footnote{Wikipedia article: \url{https://en.wikipedia.org/wiki/Arthur_Eddington}}, the man who led the expedition that proved Einstein's theory of General Relativity, so he and his ideas about this may be worth looking in to. 
+
+				Turing notes the nesessarry size of the brain-computer's storage.
+				He notes it must be at least 100 times the size of the Manchester Computer unless a way for data to be shrunk were possible.
+				The ``Manchester Computer'' could refer to either the Manchester Baby or the Manchester Mark 1.
+				Assuming the Manchester Computer refered to is the 1948 Manchester Baby, the storage of the was 1024 bits (128 bytes, or 1 kibibit)\cite{ne-jubilee} that lasted for several hours.
+				A computer with 100 times the storage (rounding up to 128 for the sake of computers' use of powers of 2) would have 131072 bits (16384 bytes), somewhere between a kilobyte and a megabyte.
+				This is significantly less than the number of neurons in the human brain ($\approx$ 86 billion).
+
+			\subsubsection{Page 4}
+				Most of page 5 is dedicated to an analogy for why a computer would not require more complexity to run a more complex program.
+				The analogy does not seem to make much sense and seems to go off on a tangent and leave suppositions it brought up forgotten.
+
+				The rest of the page goes into not knowing how a machine would be programed to act like a human brain.
+				The below quote (going into the next page) describes soemthing that would be best described as a minor prediction of LLMs, albeit off by about 20 years.
+				\begin{quote}
+					I think it is probable for instance that at the end of the century it will be possible to programme a machine to answer questions in such a way that it will be extremely difficult to guess whether the answers are being given by a man or by the machine.
+				\end{quote}
+
+			\subsubsection{Page 5}
+				Turing gets into the philosophical-psychological question of free will and the question of both whether the human mind has free will and whether a computer has free will.
+				Turing offers two possibile answers, one for if free will exists and one for if it does not.
+				No free will means that the machine can imitate human action through a programming.
+				Free will existing means the machine can come close to imitating it.
+				He proposes either a roulette wheel or radium, but dismisses the idea of the necessity of truly random processes in the next paragraph.
+
+			\subsubsection{Page 6}
+				Turing comments on what boils down to ``One needs not know how something works in order to use it''.
+				It gets into how one would program a machine to think.
+
+				Turing mentions there being many ideas as to how to get a machine to think.
+				He remarks that he thinks the process should bear a close resemblance to teaching.
+				It should be noted that modern machine learning does not bear much legitimate resemblance to teaching. 
+				To my understanding, it acts on creating mini-machines, testing them in a series of true-false quizzes and using them to make future models. 
+				It bears a much closer resemblance to evolution than to teaching.
+
+			\subsubsection{Page 6a}
+				The main paragraph on this page concerns people's opposition to the possibility of the machine learning to think.
+				He chocks it up to a fear of an opponent or rival.
+
+			\subsubsection{Page 7}
+				\begin{quote}
+					It might for instance be said that no machine could write good English,
+				\end{quote}
+				That quote certainly aged.
+				Turing states his belief that there is little boundary in what a machine will be able to do.
+				He concludes by commenting on his hope that learning how machines think will help with understanding how we ourselves think.
 
 	\section{Unpublished Manuscripts and Drafts}
 
@@ -176,7 +252,7 @@
 
 			All documents are handwritten.
 
-		\subsection{Various Letters to Turing}
+		\subsection{(Sometimes labeled \texttt{AMT-D-9}) Various Letters to Turing}
 			\subsubsection{C.G. Darwin; November 11, 1947}
 				Letter from physicist Charles Galton Darwin\footnote{Grandson of Charles Darwin. Wikipedia article: \url{https://en.wikipedia.org/wiki/Charles_Galton_Darwin}}, who was director of the National Physics Labratory at the time.
 				Darwin mentions reading a recent ``signed and sent out'' paper by Turing.
@@ -187,7 +263,7 @@
 				At the time of writing, Turing was turning towards mathematical biology. 
 
 			\subsubsection{Christopher Starchey; May 15, 1951}
-				Regards 
+				\cite{amt-k-5}Regards the radio broadcast on the same day\cite{amt-b-5} about the
 				
 	\printbibliography
 \end{document}

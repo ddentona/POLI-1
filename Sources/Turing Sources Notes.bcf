@@ -278,6 +278,10 @@
       <bcf:key>useshorteditor</bcf:key>
       <bcf:value>1</bcf:value>
     </bcf:option>
+    <bcf:option type="singlevalued">
+      <bcf:key>userecipient</bcf:key>
+      <bcf:value>1</bcf:value>
+    </bcf:option>
   </bcf:options>
   <!-- online -->
   <bcf:options component="biblatex" type="online">
@@ -493,6 +497,10 @@
       <bcf:key>useshorteditor</bcf:key>
       <bcf:value>1</bcf:value>
     </bcf:option>
+    <bcf:option type="singlevalued">
+      <bcf:key>userecipient</bcf:key>
+      <bcf:value>1</bcf:value>
+    </bcf:option>
   </bcf:options>
   <!-- movie -->
   <bcf:options component="biblatex" type="movie">
@@ -705,6 +713,10 @@
       <bcf:key>useshorteditor</bcf:key>
       <bcf:value>1</bcf:value>
     </bcf:option>
+    <bcf:option type="singlevalued">
+      <bcf:key>userecipient</bcf:key>
+      <bcf:value>1</bcf:value>
+    </bcf:option>
   </bcf:options>
   <!-- BIBLATEX OPTION SCOPE -->
   <bcf:optionscope type="GLOBAL">
@@ -792,6 +804,7 @@
     <bcf:option datatype="boolean">usetranslator</bcf:option>
     <bcf:option datatype="boolean">useshortauthor</bcf:option>
     <bcf:option datatype="boolean">useshorteditor</bcf:option>
+    <bcf:option datatype="boolean">userecipient</bcf:option>
     <bcf:option datatype="boolean">debug</bcf:option>
     <bcf:option datatype="boolean">loadfiles</bcf:option>
     <bcf:option datatype="boolean">safeinputenc</bcf:option>
@@ -906,6 +919,7 @@
     <bcf:option datatype="boolean">usetranslator</bcf:option>
     <bcf:option datatype="boolean">useshortauthor</bcf:option>
     <bcf:option datatype="boolean">useshorteditor</bcf:option>
+    <bcf:option datatype="boolean">userecipient</bcf:option>
     <bcf:option datatype="boolean">terseinits</bcf:option>
     <bcf:option datatype="boolean">abbreviate</bcf:option>
     <bcf:option datatype="boolean">dateabbrev</bcf:option>
@@ -995,6 +1009,7 @@
     <bcf:option datatype="boolean" backendout="1">usetranslator</bcf:option>
     <bcf:option datatype="boolean" backendout="1">useshortauthor</bcf:option>
     <bcf:option datatype="boolean" backendout="1">useshorteditor</bcf:option>
+    <bcf:option datatype="boolean" backendout="1">userecipient</bcf:option>
     <bcf:option datatype="boolean" backendout="1">terseinits</bcf:option>
     <bcf:option datatype="boolean" backendout="1">abbreviate</bcf:option>
     <bcf:option datatype="boolean" backendout="1">dateabbrev</bcf:option>
@@ -1552,6 +1567,7 @@
       <bcf:field fieldtype="field" format="xsv" datatype="option" skip_output="true">relatedoptions</bcf:field>
       <bcf:field fieldtype="field" datatype="range">pages</bcf:field>
       <bcf:field fieldtype="field" datatype="code">execute</bcf:field>
+      <bcf:field fieldtype="list" datatype="name">recipient</bcf:field>
     </bcf:fields>
     <bcf:entryfields>
       <bcf:field>abstract</bcf:field>
@@ -2315,6 +2331,10 @@
       <bcf:field>type</bcf:field>
       <bcf:field>venue</bcf:field>
     </bcf:entryfields>
+    <bcf:entryfields>
+      <bcf:entrytype>letter</bcf:entrytype>
+      <bcf:field>recipient</bcf:field>
+    </bcf:entryfields>
     <bcf:multiscriptfields>
       <bcf:field>abstract</bcf:field>
       <bcf:field>addendum</bcf:field>
@@ -2576,7 +2596,10 @@
     <bcf:citekey order="1" intorder="1">amt-a-1-kings</bcf:citekey>
     <bcf:citekey order="2" intorder="1">amt-a-1-manchester57</bcf:citekey>
     <bcf:citekey order="3" intorder="1">amt-b-5</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">amt-k-4</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">ne-jubilee</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">amt-k-4</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">amt-k-5</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">amt-b-5</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

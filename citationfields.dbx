@@ -1,0 +1,2 @@
+\DeclareDatamodelFields[type=list,datatype=name]{recipient}
+\DeclareDatamodelEntryfields[letter]{recipient}

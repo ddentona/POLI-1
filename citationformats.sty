@@ -1,0 +1,53 @@
+% Custom formatting and citation commands
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{../citationformats}[2025/11/29 Custom letter citation format]
+
+% Make sure biblatex is loaded (no options here; user chooses them)
+\RequirePackage{biblatex}
+
+% BIBLIOGRAPHY DRIVER FOR @letter
+\DeclareBibliographyDriver{letter}{%
+  \usebibmacro{bibindex}%
+  \usebibmacro{begentry}%
+  % Writer
+  \printnames{author}%
+  \setunit{\addspace}%
+  % Recipient
+  \printtext{to\space}%
+  \printnames{recipient}%
+  \setunit{\addcomma\space}%
+  % Date
+  \printdate%
+  \setunit{\addcomma\space}%
+  % Location
+  \printtext{in}
+  \printlist{location}%
+  \newunit\newblock
+  % Optional extras
+  \printfield[emph]{title}%
+  \newunit\newblock
+  \printfield{note}%
+  \usebibmacro{finentry}%
+}
+
+% CUSTOM CITATION COMMAND FOR LETTERS
+\DeclareCiteCommand{\citeletter}
+  {\usebibmacro{prenote}}
+  {%
+    \mkbibparens{%
+      \printnames{author}%
+      \setunit{\addspace}%
+      \printtext{to\space}%
+      \printnames{recipient}%
+      \setunit{\addcomma\space}%
+      \printfield{year}%
+      \setunit{\addhyphen}%
+      \printfield{month}%
+      \setunit{\addhyphen}%
+      \printfield{day}%
+      \setunit{\addcomma\space}%
+      \printfield{location}%
+    }%
+  }
+  {\multicitedelim}
+  {\usebibmacro{postnote}}
