@@ -1,14 +1,16 @@
-PWD /Users/dentonaingworth/Documents/CCSF/POLI 1/Sources
+PWD /Users/dentonaingworth/Documents/CCSF/POLI 1/1950s Computer Scientist Machine Learning Predictions
 INPUT /usr/local/texlive/2024/texmf.cnf
 INPUT /usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/dentonaingworth/Documents/CCSF/POLI 1/Sources/Turing Sources Notes.tex
-OUTPUT Turing Sources Notes.log
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls
+INPUT /Users/dentonaingworth/Documents/CCSF/POLI 1/1950s Computer Scientist Machine Learning Predictions/1950s Computer Scientist Machine Learning Predictions.tex
+OUTPUT 1950s Computer Scientist Machine Learning Predictions.log
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/extsizes/extarticle.cls
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/extsizes/extarticle.cls
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/base/size10.clo
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/base/size10.clo
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/base/size10.clo
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/base/exscale.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/base/exscale.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
@@ -70,6 +72,10 @@ INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 INPUT ../citationformats.sty
 INPUT ../citationformats.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
@@ -116,60 +122,50 @@ INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/bookmark/bookmark.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/setspace/setspace.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/setspace/setspace.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/titlesec/titlesec.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/titlesec/titlesec.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/generic/ulem/ulem.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/generic/ulem/ulem.sty
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm
-INPUT ./Turing Sources Notes.aux
-INPUT ./Turing Sources Notes.aux
-INPUT Turing Sources Notes.aux
-OUTPUT Turing Sources Notes.aux
+INPUT ./1950s Computer Scientist Machine Learning Predictions.aux
+INPUT ./1950s Computer Scientist Machine Learning Predictions.aux
+INPUT 1950s Computer Scientist Machine Learning Predictions.aux
+OUTPUT 1950s Computer Scientist Machine Learning Predictions.aux
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-OUTPUT Turing Sources Notes.bcf
-INPUT Turing Sources Notes.bbl
-INPUT ./Turing Sources Notes.bbl
-INPUT ./Turing Sources Notes.bbl
-INPUT ./Turing Sources Notes.bbl
-INPUT Turing Sources Notes.bbl
-OUTPUT Turing Sources Notes.pdf
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
-INPUT /usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+OUTPUT 1950s Computer Scientist Machine Learning Predictions.bcf
+INPUT 1950s Computer Scientist Machine Learning Predictions.bbl
+INPUT ./1950s Computer Scientist Machine Learning Predictions.bbl
+INPUT ./1950s Computer Scientist Machine Learning Predictions.bbl
+INPUT ./1950s Computer Scientist Machine Learning Predictions.bbl
+INPUT 1950s Computer Scientist Machine Learning Predictions.bbl
+OUTPUT 1950s Computer Scientist Machine Learning Predictions.pdf
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmtt8.tfm
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
+INPUT /usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
-INPUT Turing Sources Notes.aux
-INPUT Turing Sources Notes.run.xml
-OUTPUT Turing Sources Notes.run.xml
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
+INPUT 1950s Computer Scientist Machine Learning Predictions.aux
+INPUT 1950s Computer Scientist Machine Learning Predictions.run.xml
+OUTPUT 1950s Computer Scientist Machine Learning Predictions.run.xml
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb

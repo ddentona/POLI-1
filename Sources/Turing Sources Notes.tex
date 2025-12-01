@@ -4,6 +4,7 @@
 \usepackage{../citationformats}
 \usepackage{hyperref}
 \usepackage{bookmark}
+\usepackage{titlesec}
 \usepackage{ulem}
 
 % \DeclareLabelname[letter]{
@@ -22,6 +23,14 @@
 \renewcommand{\thesection}{AMT-\Alph{section}}
 \renewcommand{\thesubsection}{AMT-\Alph{section}-\arabic{subsection}}
 \renewcommand{\thesubsubsection}{\thesubsection.\roman{subsubsection}}
+
+\titleclass{\subsubsubsection}{straight}[\subsubsection]
+\newcounter{subsubsubsection}
+\renewcommand{\thesubsubsubsection}{\thesubsubsection.\roman{subsubsubsection}}
+\titleformat{\subsubsubsection}{\normalfont\normalsize\bfseries}{\thesubsubsubsection}{1em}{}
+\titlespacing*{\subsubsubsection}{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+\setcounter{secnumdepth}{4} % Numbers sections up to subsubsubsection
+\setcounter{tocdepth}{4}    % Includes sections up to subsubsubsection in ToC
 
 \begin{document}
 	\section{Biographical and Personal Documents}
@@ -185,7 +194,7 @@
 			\subsubsection{March 29, 1937}
 				Letter from Turing to mother from Princeton Graduate College.
 
-				Notes that Champernowne (an economist of Champernown constant\footnote{$C_10 = 0.12345678910111213\dots$} fame) was granted the fellowship at King's.
+				Notes that Champernowne (an economist of Champernown constant\footnote{$C_{10} = 0.12345678910111213\dots$} fame) was granted the fellowship at King's.
 
 				Relates wrting down some ideas in logc, believed in the document to be preperatory steps for hs PhD Dissertation ``Systems of logic based on ordinals''.
 
@@ -212,7 +221,7 @@
 
 			\subsubsection{Other Draft to Church}
 
-		\subsection{Correspondences with I.J. ``Jack'' Good}
+		\subsection{(Sometimes labeled \texttt{AMT-D-5}) Correspondences with I.J. ``Jack'' Good}
 			01-03 appear to be the same letter to I.J. Good\footnote{Wikipedia article on I.J. Good: \url{https://en.wikipedia.org/wiki/I._J._Good}}.
 			They have the same text, at least.
 
@@ -262,8 +271,50 @@
 				Handwritten letter from John Z. Young, likely the oxford zoologist\footnote{If so, his Wikipedia article: \url{https://en.wikipedia.org/wiki/John_Zachary_Young}}.
 				At the time of writing, Turing was turning towards mathematical biology. 
 
-			\subsubsection{Christopher Starchey; May 15, 1951}
-				\cite{amt-k-5}Regards the radio broadcast on the same day\cite{amt-b-5} about the
-				
+			\subsubsection{Christopher Strachey; May 15, 1951}
+				\cite{amt-d-5-iii}Regards the radio broadcast on the same day\cite{amt-b-5} about the idea of a computer brain.
+				Christopher Strachey\footnote{Wikipedia: \url{https://en.wikipedia.org/wiki/Christopher_Strachey}} was a British Computer Scientist who was a pioneer in probramming language design.
+
+				\subsubsubsection{Page 1}
+					Starchey notes Turing's comment on the similarity of programing a machine to think and teaching the machine.
+					He concurs with Turing's idea of teaching a machine, which has some similarity with teaching an LLM\footnote{if it were up to me, I would say that it concurs well with the LLM. LLMs are built on copying their input. In essence, they teach through exposure, like making a child read a bunch of books to teach them to write well.}.
+
+					Starchey notes the most important difference between a machine and a human mind in his opinion is that a machine would have to be told what patterns to look for while a human has an inherent ability to notice patterns\footnote{I don't know enough about LLMs to know if they're trained to recognize new patterns}.
+					He encourages the idea that a computer learning would bring it closer to thinking.
+
+				\subsubsubsection{Page 2}
+					Starchey adds on being able to use relationships learned.
+					After setting aside things that just have to be memorized like language or multiplication tables (call those axioms for the time being if necessary), Starchey begins talking about machines that play games.
+					He calls to mind an example of a machine that could play Nim\footnote{Wikipedia: \url{https://en.wikipedia.org/wiki/Nim}} and note down and recall any winning positions it had.
+					Starchey notes that when the machine played against his non-mathmatician friend Anthony.
+					He notes Anthony as finding the winning position to be any configuration of \texttt{(n,n,0)} while the machine had only discovered three winning positions of \texttt{(1,1,0)}, \texttt{(2,2,0)}, and \texttt{(3,3,0)} (which are just specific examples of Anthony's solution).
+					This could be one of multiple machines, as Nim-playing machines date back to 1940.
+					The first was the Nimatron, which was first exhibited at the 1939-1940 World's Fair, and was later moved to Pittsburgh\footnote{Wikipedia: \url{https://en.wikipedia.org/wiki/Nimatron}}.
+					The second was the Nimrod designed by John Makepeace Bennett and released on May 5, 1951.
+					Turing was noted as playing this machine at the Festival of Britain during its initial run\cite{kk-britishgq}.
+					The machine could be something else entirely, such as a list of instructions for a person to engage in verbatim so as to imitate a machine.
+					This was not unheard of, as Turing was noted as creating and using a chess-playing set of instructions.
+					Starchey did note himself as ``taking the part of the machine''.
+
+					He uses this to get into his idea that the way a machine could "learn" would be through what is essentially abstraction.
+					He indicates he has an idea of how this learning through abstraction might play out, specifically through the use of a teacher.
+
+				\subsubsubsection{Page 3}
+					Starchey lists three stages of learning from a teacher: exhibition (being shown examples), generalization (underlining the important commonalities), and verifying (checking for special/edge cases).
+					He uses the example of differentiating powers of $x$: start with differentiations of $x$, $x^2$, and $x^3$, then extrapolate a rule for $x^n$ as a generalization\footnote{Usually $x^n \to n x^{n - 1}$, at least for me}, and finally check if it works for edge cases\footnote{Mine works for cases like $x^{\frac{1}{2}}$ or $x^{-1}$ but not cases like $x^0$ or $x^x$}.
+					This largely mirrors how our own learning and testing happens, although we tend to go to a step 4 where we try to learn why it works, but that is neither here nor there.
+
+					Starchey then comments that he believes it possible for the `Machester machine' to complete these stages, but admits that storage would be an issue.
+					Turing seems to have acknowledged this in his initial radio broadcast\cite{amt-b-5}.
+					Getting the machine to `programme itself from very simple and general input data' is a noted requirement.
+					Starchey then notes the requirement of a suitable notation to communicate with and from the computer, which he assumes can be generated first for mathematics because of its simplicity in his mind.
+					He then complains about writing mathematics on a typewriter\footnote{This was before \LaTeX}.
+
+				\subsubsubsection{Page 4}
+					Starchey proposes the idea of a machine that converts higher-level/math notation into machine code which is sent to the machine itself.
+					This is similar to what does happen in a computer.
+
+					He then talks about his attempt at a Draughts (checkers) playing program.
+
 	\printbibliography
 \end{document}

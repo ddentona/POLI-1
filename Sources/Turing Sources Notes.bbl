@@ -61,10 +61,35 @@
       \field{volume}{Summer}
       \field{year}{1998}
     \endentry
-    \entry{amt-k-5}{letter}{}
+    \entry{kk-britishgq}{article}{}
       \name{author}{1}{}{%
-        {{hash=62573112049d1c26366be87e3f0e25f6}{%
-           family={Starchey},
+        {{hash=664fa5f2dd71ffe1529f126d23873245}{%
+           family={Knowles},
+           familyi={K\bibinitperiod},
+           given={Kitty},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{664fa5f2dd71ffe1529f126d23873245}
+      \strng{fullhash}{664fa5f2dd71ffe1529f126d23873245}
+      \strng{bibnamehash}{664fa5f2dd71ffe1529f126d23873245}
+      \strng{authorbibnamehash}{664fa5f2dd71ffe1529f126d23873245}
+      \strng{authornamehash}{664fa5f2dd71ffe1529f126d23873245}
+      \strng{authorfullhash}{664fa5f2dd71ffe1529f126d23873245}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{25}
+      \field{journaltitle}{British GQ}
+      \field{month}{3}
+      \field{title}{A history of videogames: the defining moments from Nimrod to now}
+      \field{year}{2015}
+      \field{dateera}{ce}
+    \endentry
+    \entry{amt-d-5-iii}{letter}{}
+      \name{author}{1}{}{%
+        {{hash=cbbad7395e46410132fa077aee3efcd6}{%
+           family={Strachey},
            familyi={S\bibinitperiod},
            given={Christopher},
            giveni={C\bibinitperiod}}}%
@@ -77,14 +102,14 @@
            giveni={A\bibinitperiod}}}%
       }
       \list{location}{1}{%
-        {Harrow}%
+        {Grove Hill House, Grove Hill, Harrow, UK}%
       }
-      \strng{namehash}{62573112049d1c26366be87e3f0e25f6}
-      \strng{fullhash}{62573112049d1c26366be87e3f0e25f6}
-      \strng{bibnamehash}{62573112049d1c26366be87e3f0e25f6}
-      \strng{authorbibnamehash}{62573112049d1c26366be87e3f0e25f6}
-      \strng{authornamehash}{62573112049d1c26366be87e3f0e25f6}
-      \strng{authorfullhash}{62573112049d1c26366be87e3f0e25f6}
+      \strng{namehash}{cbbad7395e46410132fa077aee3efcd6}
+      \strng{fullhash}{cbbad7395e46410132fa077aee3efcd6}
+      \strng{bibnamehash}{cbbad7395e46410132fa077aee3efcd6}
+      \strng{authorbibnamehash}{cbbad7395e46410132fa077aee3efcd6}
+      \strng{authornamehash}{cbbad7395e46410132fa077aee3efcd6}
+      \strng{authorfullhash}{cbbad7395e46410132fa077aee3efcd6}
       \strng{recipientbibnamehash}{d6d9f41ce7ab57b0d45edbe153331923}
       \strng{recipientnamehash}{d6d9f41ce7ab57b0d45edbe153331923}
       \strng{recipientfullhash}{d6d9f41ce7ab57b0d45edbe153331923}
@@ -94,6 +119,7 @@
       \field{labeltitlesource}{title}
       \field{day}{15}
       \field{month}{5}
+      \field{note}{Courtesy of Kings College Cambridge's Turing Digital Archive}
       \field{title}{Letter to Alan Turing about his Radio Broadcast}
       \field{year}{1951}
       \field{dateera}{ce}
@@ -121,6 +147,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{5}
+      \field{note}{Transcript courtesy of Kings College Cambridge's Turing Digital Archive}
       \field{title}{Can digital computers think? [Radio broadcast]}
       \field{year}{1951}
     \endentry

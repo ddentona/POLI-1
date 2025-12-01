@@ -1,0 +1,73 @@
+\documentclass[10pt]{extarticle}
+\usepackage[citestyle=numeric,datamodel=../citationfields]{biblatex}
+\addbibresource{../refs.bib}
+\usepackage{../citationformats}
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage{hyperref}
+\usepackage{bookmark}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{ulem}
+
+% \DeclareLabelname[letter]{
+% 	\field{author}
+% 	\field{addressee}
+% 	\field{date}
+% 	\field{location}
+% 	\field{title}
+% 	\field{note}
+% }
+% \DeclareLabelname[movie]{
+%     \field{director}
+%     \field{producer}
+% }
+
+\renewcommand{\thesection}{AMT-\Alph{section}}
+\renewcommand{\thesubsection}{AMT-\Alph{section}-\arabic{subsection}}
+\renewcommand{\thesubsubsection}{\thesubsection.\roman{subsubsection}}
+
+\setstretch{1.5}
+
+\begin{document}
+    {\noindent
+    Donald Aingworth\\
+    Professor Ryer\\
+    HIST 46: Independent Study\\
+    2025-11-30}
+
+    \begin{center}
+        An Reflection on Predictions of LLMs by Turing and Strachey
+    \end{center}
+    From Mary Shelley's \textit{Frankenstein} to Marvin the Paranoid Andriod in \textit{The Hitchhiker's Guide to the Galaxy}, the idea of artificially creating or replicating the human mind has captured the imagination of Science Fiction writers for centuries. 
+    We have come ever closer to this dream as time has passed, especially since the advent of the computer. 
+    As computers become better researched and tested, so has Artificial Intelligence, notably the Large Language Model (LLM), which refers to a software tool capable of linguistic analysis and capable of generating natural text.
+    Seeds of this have been on the minds of Mathmaticians and Computer Scientists since the middle of the twentieth century, as was demonstrated in a 1951 radio broadcast by Alan Turing\cite{amt-b-5}.
+    This essay seeks to analyze the predictions and assessments made by Turing during the broadcast and a letter in response by Christopher Strachey\cite{amt-d-5-iii}.
+
+    After an explanation of the nature of computers as machines that manipulate data based off of instructions, Turing's first prediction about a computer's imitation of the human brain is the necessary size of the machine.
+    Turing predicts ``We probably need something at least a hundred times as large as the Manchester Computer'' (p.3).
+    The Manchester Mark 1, created in 1949, was the most recent Manchester computer, which had 128 pages of main storage stored on magnetic drums. 
+    Each pages had a storage of 32 by 20 bits, equivalent to 1280 total bits or 160 bytes of storage each, totaling 20,480 bytes of storage memory\cite{rben-manchester}.
+    Rounding up to 128 times the size of the Manchester computer to keep the powers of two used intact, this would ultimately total 20,971,520 bits of storage memory.
+    Assuming Turing were estimating the amount of bits of storage necessary based on the number of neurons in the brain at a one to one ratio, a value he estimated to be between three hundred million and thirty billion in 1948 in a letter to I.J. Good\cite{amt-d-3-iv}, this would be much less than the required number of bits.
+    In LLMs, the data storage required in much more than Turing's estimate, such as with OpenAI's GPT-3, which has 175 billion parameters, well above Turing's estimate\cite{DBLP:journals/corr/abs-2005-14165}, although Turing would have no way of knowing or predicting this.
+    Considering the vague value of ``a hundred times as large'', this suggests that the estimation was intentionally made to be simple.
+
+    Turing's next major speculation is his prediction of how a mechanical brain will manifest.
+    He predicts that by the end of the twentieth century, ``it will be possible to programme a machine to answer questions in such a way that it will be extremely difficult to guess whether the answers are being given by a man or by the machine'' (p.5).
+    He goes on to predict the mechanical brain would be able to be tested as ``something like a viva-voce\footnote{Orally rather than in written} examination, but with the questions and answers all typewritten in''.
+    Turing's predicted machine is similar to the idea of the LLM, which replicates human language.
+
+    Christopher Strachey had a different perspective on the way a computer would imitate the human brain.
+    His theory hinged on the human mind's ability to detect arbitrary patterns and relationships and use those relationships, such as in training machines to play board games.
+    In his letter to Turing following Turing's radio broadcast, Strachey cites an example of a human and a machine with soem level of memory playing Nim.
+    He recounts having a friend named Anthony play the game of Nim four times against a machine with the ability to record winning positions that precede victory.
+    While the machine was only able to record the list of winning moves, Anthony was able to identify the pattern of positions that would lead to a winning move.
+    Starchey identifies this pattern recognotion, which is a key idea in machine learning that LLMs operate on, as a key difference between humans and machines.
+
+    A common idea that Turing and Starchey endorse is the likely resemblance between a program making a machine think and teaching said machine.
+    While Turing's comment is brief and speculative, Starchey goes into detail about his theory.
+    Starchey theorizes that 
+
+    \printbibliography
+\end{document}
