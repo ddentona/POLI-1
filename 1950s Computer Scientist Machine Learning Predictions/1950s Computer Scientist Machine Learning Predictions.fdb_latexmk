@@ -1,15 +1,15 @@
 # Fdb version 4
-["biber 1950s Computer Scientist Machine Learning Predictions"] 1764571107.74384 "1950s Computer Scientist Machine Learning Predictions.bcf" "1950s Computer Scientist Machine Learning Predictions.bbl" "1950s Computer Scientist Machine Learning Predictions" 1764571467.58512 0
+["biber 1950s Computer Scientist Machine Learning Predictions"] 1764701186.1383 "1950s Computer Scientist Machine Learning Predictions.bcf" "1950s Computer Scientist Machine Learning Predictions.bbl" "1950s Computer Scientist Machine Learning Predictions" 1764703323.54358 0
   "../refs.bib" 1764564457.65233 6714 1b0aa598c0288ddcb1171c6fe544c1aa ""
-  "1950s Computer Scientist Machine Learning Predictions.bcf" 1764571467.5419 108695 490cb39109a43e09fba8cb0f4a592b92 "pdflatex"
+  "1950s Computer Scientist Machine Learning Predictions.bcf" 1764703323.50352 108693 c3036a99d1fad417235e5ab816a5484b "pdflatex"
   (generated)
   "1950s Computer Scientist Machine Learning Predictions.bbl"
   "1950s Computer Scientist Machine Learning Predictions.blg"
   (rewritten before read)
-["pdflatex"] 1764571466.89986 "/Users/dentonaingworth/Documents/CCSF/POLI 1/1950s Computer Scientist Machine Learning Predictions/1950s Computer Scientist Machine Learning Predictions.tex" "1950s Computer Scientist Machine Learning Predictions.pdf" "1950s Computer Scientist Machine Learning Predictions" 1764571467.58535 0
+["pdflatex"] 1764703322.91354 "/Users/dentonaingworth/Documents/CCSF/POLI 1/1950s Computer Scientist Machine Learning Predictions/1950s Computer Scientist Machine Learning Predictions.tex" "1950s Computer Scientist Machine Learning Predictions.pdf" "1950s Computer Scientist Machine Learning Predictions" 1764703323.54379 0
   "../citationfields.dbx" 1764481113.93673 107 992f051a1ad6c3722f565a5ccb971d57 ""
   "../citationformats.sty" 1764531410.31237 1268 1295c050622c1c3fd1c7bf4ef98aaf06 ""
-  "/Users/dentonaingworth/Documents/CCSF/POLI 1/1950s Computer Scientist Machine Learning Predictions/1950s Computer Scientist Machine Learning Predictions.tex" 1764571466.69793 5405 fe3b9de85604b54f8c9455727f0f41c4 ""
+  "/Users/dentonaingworth/Documents/CCSF/POLI 1/1950s Computer Scientist Machine Learning Predictions/1950s Computer Scientist Machine Learning Predictions.tex" 1764703322.74179 8916 2f5a384b52547ac5a57036be1fad6a98 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -27,6 +27,7 @@
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm" 1136768653 520 4889cce2180234b97cad636b6039c722 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb" 1248133631 32001 6aeea3afe875097b1eb0da29acd61e28 ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1248133631 32734 69e00a6b65cedb993666e42eedb3d48f ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1248133631 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
@@ -92,10 +93,10 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1727305248.69286 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1727305230 8221424 9bdbcc07e109911bb30a75dc8990d89e ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "1950s Computer Scientist Machine Learning Predictions.aux" 1764571467.5409 1030 f90a2109a7e978551a1ea88681596082 "pdflatex"
-  "1950s Computer Scientist Machine Learning Predictions.bbl" 1764571109.62365 12809 ea3c8082caf65b0047a77ccf4909773b "biber 1950s Computer Scientist Machine Learning Predictions"
-  "1950s Computer Scientist Machine Learning Predictions.run.xml" 1764571467.54239 2700 c6c8bb74661411d6e867f9c4ef8265dd "pdflatex"
-  "1950s Computer Scientist Machine Learning Predictions.tex" 1764571466.69793 5405 fe3b9de85604b54f8c9455727f0f41c4 ""
+  "1950s Computer Scientist Machine Learning Predictions.aux" 1764703323.50242 1024 9a8a02c0371a8be7a35e7b60885b3c38 "pdflatex"
+  "1950s Computer Scientist Machine Learning Predictions.bbl" 1764701187.70164 12384 7ad99e1a7d99b2794b5fa13ce5891088 "biber 1950s Computer Scientist Machine Learning Predictions"
+  "1950s Computer Scientist Machine Learning Predictions.run.xml" 1764703323.50399 2700 c6c8bb74661411d6e867f9c4ef8265dd "pdflatex"
+  "1950s Computer Scientist Machine Learning Predictions.tex" 1764703322.74179 8916 2f5a384b52547ac5a57036be1fad6a98 ""
   (generated)
   "1950s Computer Scientist Machine Learning Predictions.aux"
   "1950s Computer Scientist Machine Learning Predictions.bcf"

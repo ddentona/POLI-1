@@ -268,45 +268,6 @@
       \field{year}{1951}
       \field{dateera}{ce}
     \endentry
-    \entry{amt-d-3-iv}{letter}{}
-      \name{author}{1}{}{%
-        {{hash=d6d9f41ce7ab57b0d45edbe153331923}{%
-           family={Turing},
-           familyi={T\bibinitperiod},
-           given={Alan},
-           giveni={A\bibinitperiod}}}%
-      }
-      \name{recipient}{1}{}{%
-        {{hash=b86a87765e61c9d06430e684291fa9f9}{%
-           family={Good},
-           familyi={G\bibinitperiod},
-           given={I.J.},
-           giveni={I\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Kings College, Cambridge, UK}%
-      }
-      \strng{namehash}{d6d9f41ce7ab57b0d45edbe153331923}
-      \strng{fullhash}{d6d9f41ce7ab57b0d45edbe153331923}
-      \strng{bibnamehash}{d6d9f41ce7ab57b0d45edbe153331923}
-      \strng{authorbibnamehash}{d6d9f41ce7ab57b0d45edbe153331923}
-      \strng{authornamehash}{d6d9f41ce7ab57b0d45edbe153331923}
-      \strng{authorfullhash}{d6d9f41ce7ab57b0d45edbe153331923}
-      \strng{recipientbibnamehash}{b86a87765e61c9d06430e684291fa9f9}
-      \strng{recipientnamehash}{b86a87765e61c9d06430e684291fa9f9}
-      \strng{recipientfullhash}{b86a87765e61c9d06430e684291fa9f9}
-      \field{extraname}{1}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{day}{28}
-      \field{month}{7}
-      \field{note}{Courtesy of Kings College Cambridge's Turing Digital Archive}
-      \field{title}{Letter to I.J. Good}
-      \field{year}{1948}
-      \field{dateera}{ce}
-    \endentry
     \entry{amt-b-5}{misc}{}
       \name{author}{1}{}{%
         {{hash=1210277649f3c7541e2750ee21da6237}{%
@@ -324,7 +285,7 @@
       \strng{authorbibnamehash}{1210277649f3c7541e2750ee21da6237}
       \strng{authornamehash}{1210277649f3c7541e2750ee21da6237}
       \strng{authorfullhash}{1210277649f3c7541e2750ee21da6237}
-      \field{extraname}{2}
+      \field{extraname}{1}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
       \field{labelnamesource}{author}
@@ -333,6 +294,31 @@
       \field{note}{Transcript courtesy of Kings College Cambridge's Turing Digital Archive}
       \field{title}{Can digital computers think? [Radio broadcast]}
       \field{year}{1951}
+    \endentry
+    \entry{amt-b-12}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1210277649f3c7541e2750ee21da6237}{%
+           family={Turing},
+           familyi={T\bibinitperiod},
+           given={Alan\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{fullhash}{1210277649f3c7541e2750ee21da6237}
+      \strng{bibnamehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{authorbibnamehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{authornamehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{authorfullhash}{1210277649f3c7541e2750ee21da6237}
+      \field{extraname}{2}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the London Mathematical Society}
+      \field{number}{2}
+      \field{title}{On computable numbers, with an application to the Entscheidungsproblem}
+      \field{volume}{42}
+      \field{year}{1937}
     \endentry
   \enddatalist
 \endrefsection
