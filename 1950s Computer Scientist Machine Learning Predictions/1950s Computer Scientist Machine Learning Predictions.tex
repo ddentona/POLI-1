@@ -39,52 +39,53 @@
     2025-12-02}
 
     \begin{center}
-        An Reflection on Predictions of LLMs by Turing and Strachey
+        A Reflection on Predictions of LLMs by Turing and Strachey
     \end{center}
-    From Mary Shelley's \textit{Frankenstein} to Marvin the Paranoid Andriod in \textit{The Hitchhiker's Guide to the Galaxy}, the idea of artificially creating or replicating the human mind has captured the imagination of Science Fiction writers for centuries. 
+    From Mary Shelley's \textit{Frankenstein} to Marvin the Paranoid Andriod in \textit{The Hitchhiker's Guide to the Galaxy}, the idea of artificially creating or replicating the human mind has captured the imagination of scientists and writers for centuries. 
     We have come ever closer to this dream as time has passed, especially since the advent of the computer. 
-    As computers become better researched and tested, so has Artificial Intelligence, notably the Large Language Model (LLM), which refers to a software tool capable of linguistic analysis and capable of generating natural text.
-    Seeds of this have been on the minds of Mathmaticians and Computer Scientists since the middle of the twentieth century, as was demonstrated in a 1951 radio broadcast by Alan Turing\cite{amt-b-5}.
-    Mathmatician and early computer scientist Christopher Strachey, in a letter to Turing, reacted to the broadcast with his own theories about the idea of a computer mind\cite{amt-d-5-iii}.
-    While Turing and Strachey had different ideas of how a mechanical brain would manifest, they agreed in assessment of what making the machine think would look like and the requirements of a machine able to imitate a mind, all of which have correlations with Large Language Models.
+    As computers become better researched and tested, so has Artificial Intelligence, notably the Large Language Model (LLM), a software tool capable of linguistic analysis and generating natural text.
+    Ideas like this have been on the minds of Mathematicians and Computer Scientists since the middle of the twentieth century, as was demonstrated in a 1951 radio broadcast by Alan Turing\cite{amt-b-5}.
+    Mathematician and early computer scientist Christopher Strachey, in a letter to Turing, reacted to the broadcast with his own theories of how a computer mind would operate\cite{amt-d-5-iii}.
+    While Turing and Strachey had different ideas of how a mechanical brain would manifest, they shared assumptions of what making the machine think would look like including requirements of a machine able to imitate a mind, all of which correspond closely with Large Language Models.
 
-    Turing's major speculation is his prediction of how a mechanical brain will manifest.
+    Turing's major speculation is his prediction about how a mechanical brain will manifest.
     He predicts that by the end of the twentieth century, ``it will be possible to programme a machine to answer questions in such a way that it will be extremely difficult to guess whether the answers are being given by a man or by the machine'' (p.5).
-    He goes on to predict the mechanical brain would be able to be tested as ``something like a viva-voce\footnote{Orally rather than in written} examination, but with the questions and answers all typewritten in''.
-    Turing's predicted machine is similar to the idea of the LLM, which replicates human language.
+    He goes on to predict the mechanical brain would be testable as ``something like a viva-voce\footnote{Orally rather than in written} examination, but with the questions and answers all typewritten''. (p.5)
+    Turing's predicted machine is similar in concept to an LLM, which replicates human language.
 
     Christopher Strachey had a different perspective on the way a computer would imitate the human brain.
-    His theory hinged on the human mind's ability to detect arbitrary patterns and relationships and use those relationships, such as in training machines to play board games.
-    In his letter to Turing following Turing's radio broadcast, Strachey cites an example of a human and a machine with soem level of memory playing Nim.
+    His theory hinged on the human mind's ability to detect arbitrary patterns and relationships and use those relationships, as demonstrated when training machines to play board games.
+    In his letter to Turing, Strachey cites an example of a human and a machine with some level of memory playing Nim.
     He recounts having a friend named Anthony play the game of Nim four times against a machine with the ability to record winning positions that precede victory.
-    While the machine was only able to record the list of winning moves, Anthony was able to identify the pattern of positions that would lead to a winning move.
-    Strachey identifies this pattern recognotion, which is a key idea in machine learning that LLMs operate on, as a key difference between humans and machines.
+    While the machine could only record the list of winning moves, Anthony was able to identify the pattern of positions that would lead to a winning move.
+    Strachey identifies this pattern recognotion, a key idea in machine learning that LLMs use, as a key difference between humans and machines.
 
-    A common idea that Turing and Strachey endorse is the likely resemblance between a program making a machine think and teaching said machine.
-    While Turing's comment is brief and speculative, Strachey goes into detail about his theory.
+    A common idea that Turing and Strachey endorse is the likely resemblance between programmng a machine to think and teaching the machine.
+    While Turing's comment is brief and speculative, Strachey goes into detail.
     Strachey theorizes that a machine would learn in three steps.
     The first step, called exhibition, involves being shown examples of the underlying rule.
     This is followed by generalization, where underlying commonalities in examples are determined.
-    Last is verification of the rule determined in generalization, where other examples and special cases are considered.
+    Last is verification, where other examples and special cases are considered and tested.
     Strachey uses the example of the differentiation of $x$, $x^2$, $x^3$, and so on, where the connection is with the coefficient and the power.
-    What Strachey describes could presently best be described as supervised machine learning.
+    What Strachey describes resembles supervised machine learning.
     Supervised machine learning is a process where a machine is given pre-classified data and instructed to determine the commonalities within the labeled data.
-    This lines up well with Strachey's ideas of exhibition and generalization, and grants the possibility of using verification.
+    This lines up well with Strachey's ideas of exhibition and generalization, and potentially allows for verification.
 
     Another point brought up in both Turing and Strachey's statements is the necessary complexity and memory of a mechanical brain.
     Turing states his belief that ``there is no need for there to be any increase in the complexity of the computers used'' (p.3).
-    This corellates with computers being designed based off the Turing Machine Turing devised in his paper \textit{On computable numbers, with an application to the Entscheidungsproblem}\cite{amt-b-12}, which is able to implement any algorithm given sufficient memory.
+    This correlates with computers being designed based on the Turing Machine. 
+    Turing devised the Turing Machine in his paper \textit{On computable numbers, with an application to the Entscheidungsproblem}\cite{amt-b-12}, which can implement any algorithm given sufficient memory.
     Strachey concurs when he writes ``Now I think it might well be possible to program the Manchester machine to do all of these stages, though how much it would be able to learn in this way before before the storage becomes inadequate remains to be seen.'' (p.2)
     Memory (or storage) is a primary concern both men raise.
     Turing predicts ``We probably need something at least a hundred times as large as the Manchester Computer'' (p.3).
     The Manchester Mark 1 had 128 `pages' of secondary storage.
     Each page stored 32 `words', and each word was 40 bits\cite{rben-manchester}. 
-    This totals 163,840 bits of secondary storage, less than one one hundred thousandth of the amount of parameters alone of OpenAI's LLM GPT-3\cite{DBLP:journals/corr/abs-2005-14165}.
+    This totals 163,840 bits of secondary storage, far less than the 175 billion parameters found in OpenAI's LLM GPT-3\cite{DBLP:journals/corr/abs-2005-14165}.
 
-    While Turing and Strachey had disagreements in how a mechanical mind would manifest, there was little argument of the form and requirements of the machine, all of which have implications in modern Machine Learning.
+    While Turing and Strachey had disagreements in how a mechanical mind would manifest, there was little argument of the form and requirements of the machine, all of which map onto modern machine learning.
     At one point in his broadcast, Turing comes to a philosophical conundrum.
     ``To behave like a brain seems to involve free will, but the behaviour of a digital computer, when it has been programmed, is completely determined.'' (p.5)
-    He circumnavigates this by stating that should free will exist, it would be able to imitate the human brain to a point that it would appear to have free will.
+    He circumvents this by stating that should free will exist, the computer would be able to imitate the human brain well enough to appear to have free will.
     As Artificial Intelligence advances, the conundrum becomes increasingly irrelevant. 
     Machine Learning is not a new concept, and what we see and use now is merely the most recent step in the process started by these early Computer Scientists decades ago. 
 
