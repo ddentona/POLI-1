@@ -1,18 +1,18 @@
 # Fdb version 4
-["biber 1950s Computer Scientist Machine Learning Predictions"] 1764729594.29314 "1950s Computer Scientist Machine Learning Predictions.bcf" "1950s Computer Scientist Machine Learning Predictions.bbl" "1950s Computer Scientist Machine Learning Predictions" 1764730471.96386 0
+["biber 1950s Computer Scientist Machine Learning Predictions"] 1764729594.29314 "1950s Computer Scientist Machine Learning Predictions.bcf" "1950s Computer Scientist Machine Learning Predictions.bbl" "1950s Computer Scientist Machine Learning Predictions" 1764730541.49174 0
   "../refs.bib" 1764729478 6929 1b0aa598c0288ddcb1171c6fe544c1aa ""
-  "1950s Computer Scientist Machine Learning Predictions.bcf" 1764730471 108693 c3036a99d1fad417235e5ab816a5484b "pdflatex"
+  "1950s Computer Scientist Machine Learning Predictions.bcf" 1764730541 108693 c3036a99d1fad417235e5ab816a5484b "pdflatex"
   (generated)
   "1950s Computer Scientist Machine Learning Predictions.bbl"
   "1950s Computer Scientist Machine Learning Predictions.blg"
   (rewritten before read)
-["pdflatex"] 1764730470.38956 "c:/Users/ddent/OneDrive/Documents/CCSF/POLI-1/1950s Computer Scientist Machine Learning Predictions/1950s Computer Scientist Machine Learning Predictions.tex" "1950s Computer Scientist Machine Learning Predictions.pdf" "1950s Computer Scientist Machine Learning Predictions" 1764730471.9652 0
+["pdflatex"] 1764730539.88197 "c:/Users/ddent/OneDrive/Documents/CCSF/POLI-1/1950s Computer Scientist Machine Learning Predictions/1950s Computer Scientist Machine Learning Predictions.tex" "1950s Computer Scientist Machine Learning Predictions.pdf" "1950s Computer Scientist Machine Learning Predictions" 1764730541.49303 0
   "../citationfields.dbx" 1764523475 108 992f051a1ad6c3722f565a5ccb971d57 ""
   "../citationformats.sty" 1764729478 1320 1295c050622c1c3fd1c7bf4ef98aaf06 ""
-  "1950s Computer Scientist Machine Learning Predictions.aux" 1764730471 1024 7b6fecea593b3deb8190925034b4ce04 "pdflatex"
+  "1950s Computer Scientist Machine Learning Predictions.aux" 1764730541 1024 7b6fecea593b3deb8190925034b4ce04 "pdflatex"
   "1950s Computer Scientist Machine Learning Predictions.bbl" 1764729597 12710 7ad99e1a7d99b2794b5fa13ce5891088 "biber 1950s Computer Scientist Machine Learning Predictions"
-  "1950s Computer Scientist Machine Learning Predictions.run.xml" 1764730471 2700 c6c8bb74661411d6e867f9c4ef8265dd "pdflatex"
-  "1950s Computer Scientist Machine Learning Predictions.tex" 1764730469 8837 9303892383c668300cc9c1f11c65bc97 ""
+  "1950s Computer Scientist Machine Learning Predictions.run.xml" 1764730541 2700 c6c8bb74661411d6e867f9c4ef8265dd "pdflatex"
+  "1950s Computer Scientist Machine Learning Predictions.tex" 1764730539 8848 9e5f34bbe585b6bed56570aea3d1f99b ""
   "C:/Users/ddent/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1764729592 151629 65cd6e1296beda1feb8e616e59f2da55 ""
   "C:/Users/ddent/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1724473854 24225046 9a86b7f1ef10f5afb0aa895fddb2583f ""
   "C:/Users/ddent/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -95,7 +95,7 @@
   "C:/Users/ddent/AppData/Local/Programs/MiKTeX/tex/latex/titlesec/titlesec.sty" 1736608268 48766 87a17a4ef312a39cd43896e34a679a56 ""
   "C:/Users/ddent/AppData/Local/Programs/MiKTeX/tex/latex/ulem/ulem.sty" 1578651445 15682 94f55b803e160cf7fb6e4d77d07cfe1d ""
   "C:/Users/ddent/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/Users/ddent/OneDrive/Documents/CCSF/POLI-1/1950s Computer Scientist Machine Learning Predictions/1950s Computer Scientist Machine Learning Predictions.tex" 1764730469 8837 9303892383c668300cc9c1f11c65bc97 ""
+  "c:/Users/ddent/OneDrive/Documents/CCSF/POLI-1/1950s Computer Scientist Machine Learning Predictions/1950s Computer Scientist Machine Learning Predictions.tex" 1764730539 8848 9e5f34bbe585b6bed56570aea3d1f99b ""
   (generated)
   "1950s Computer Scientist Machine Learning Predictions.aux"
   "1950s Computer Scientist Machine Learning Predictions.bcf"
