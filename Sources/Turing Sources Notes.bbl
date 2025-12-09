@@ -151,7 +151,7 @@
       \field{title}{Can digital computers think? [Radio broadcast]}
       \field{year}{1951}
     \endentry
-    \entry{amt-k-4}{unpublished}{}
+    \entry{amt-b-9}{article}{}
       \name{author}{1}{}{%
         {{hash=1210277649f3c7541e2750ee21da6237}{%
            family={Turing},
@@ -166,6 +166,31 @@
       \strng{authornamehash}{1210277649f3c7541e2750ee21da6237}
       \strng{authorfullhash}{1210277649f3c7541e2750ee21da6237}
       \field{extraname}{2}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{MIND}
+      \field{number}{236}
+      \field{title}{Computing Machinery and Intelligence}
+      \field{volume}{59}
+      \field{year}{1950}
+    \endentry
+    \entry{amt-k-4}{unpublished}{}
+      \name{author}{1}{}{%
+        {{hash=1210277649f3c7541e2750ee21da6237}{%
+           family={Turing},
+           familyi={T\bibinitperiod},
+           given={Alan\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{fullhash}{1210277649f3c7541e2750ee21da6237}
+      \strng{bibnamehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{authorbibnamehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{authornamehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{authorfullhash}{1210277649f3c7541e2750ee21da6237}
+      \field{extraname}{3}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
       \field{labelnamesource}{author}

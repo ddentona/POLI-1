@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.25)  2 DEC 2025 18:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.25)  7 DEC 2025 15:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -498,11 +498,11 @@ Package biblatex Info: Reference segment=0 on input line 31.
 
 Package hyperref Info: Link coloring OFF on input line 31.
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <7> on input line 53.
+(Font)              <7> on input line 55.
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <5> on input line 53.
+(Font)              <5> on input line 55.
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <6> on input line 53.
+(Font)              <6> on input line 55.
 [1
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] (./1950s Computer Scientist Machine Learning Predictions.aux)
@@ -517,7 +517,7 @@ Package logreq Info: Writing requests to '"1950s Computer Scientist Machine Lear
 Here is how much of TeX's memory you used:
  15938 strings out of 474116
  285358 string characters out of 5743682
- 1939187 words of memory out of 5000000
+ 1944187 words of memory out of 5000000
  38161 multiletter control sequences out of 15000+600000
  561868 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -526,7 +526,7 @@ Here is how much of TeX's memory you used:
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "1950s Computer Scientist Machine Learning Predictions.pdf" (2 pages, 115608 bytes).
+Output written on "1950s Computer Scientist Machine Learning Predictions.pdf" (2 pages, 115545 bytes).
 PDF statistics:
  80 PDF objects out of 1000 (max. 8388607)
  57 compressed objects within 1 object stream
