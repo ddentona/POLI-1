@@ -26,7 +26,7 @@
 \renewcommand{\thesubsection}{AMT-\Alph{section}-\arabic{subsection}}
 \renewcommand{\thesubsubsection}{\thesubsection.\roman{subsubsection}}
 
-\setstretch{1.05}
+\setstretch{1.0}
 
 \begin{document}
     {\noindent
@@ -39,7 +39,7 @@
     \today}
 
     \begin{center}
-        [TITLE]
+        A History of Artificial Intelligence, with a Focus on the Imitation Game
     \end{center}
     \noindent
     According to a 2024 survey by the Digital Education Council, 86\% of students claim to use Artificial Intelligence in their studies\cite{de-studentsUseAI}, raising the question of how successful this AI is relative to its earliest benchmarks.
@@ -75,6 +75,21 @@
     However, advancements in machine learning would allow for advancements in conversational AI.
 
     One such advancement in machine learning was the model of Reinforcement Learning from Human Feedback (RLHF), which uses human opinion to improve its model and better resemble ideal human response.
+    RLHF takes an intial language model capable of responding to a wide range of prompts.
+    The language model is then presented to a (human) reviewer who gives the model a prompt.
+    Once the model and one or more similar models generate responses to the prompt, the responses are then shown to the reviewer, who chooses the best one\cite{lambert2022illustrating}.
+    This is most easily done with two models, but studies have trained models using up to four response options\cite{ziegler2020finetuninglanguagemodelshuman}.
+    A reward model then turns this selection into a single number that acts as a reward for each model, teling it what works well and what works poorly.
+    The model in turn improves itself based on this response\cite{lambert2022illustrating}.
+    This parallels the idea of a machine trained by reward and punishment, introduced by Turing in \textit{Computing Machinery and Intelligence}\cite{amt-b-9}.
+    RLHF allows AI to improve its similarity to human conversation through direct response by humans.
+    This assists in building a congruence between conversational AI and human conversation, granting it better likelihood at success in the Imitation Game.
+
+    Artificial Intelligence has a long history in Computer Science, from its introduction working with symbolic logic to learning and playing chess.
+    Ever since Alan Turing introduced the Imitation Game, the question of whether a conversational AI can convince others it is human has been on the mind of Computer Scientists and philosophers.
+    Recent developments have allowed for conversational AI to better resemble human language. 
+    With the rise of use of AI in society, the question is extant of whether it can replace humans or will only ever asymptote them.
+    The answer to this question is found through Alan Turing's Imitation Game, which rises in relevance as Artificial Intelligence advances.
 
     % In \textit{Computing Machinery and Intelligence}, Alan Turing predicted a dialogue machine which would be able to mimic a human mind.
     % This prediction would be far ahead of its time, as AI/ML initially manifested as symbolic logic machines and eventually game-playing machines decades before Large Language Models achieved prominence.
