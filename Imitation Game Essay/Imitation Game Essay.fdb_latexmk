@@ -1,15 +1,15 @@
 # Fdb version 4
-["biber Imitation Game Essay"] 1765341948.0154 "Imitation Game Essay.bcf" "Imitation Game Essay.bbl" "Imitation Game Essay" 1765420756.34341 0
-  "../refs.bib" 1765341832.68604 8414 de2e73498ae2172e1c8e3fc1b844e2ab ""
-  "Imitation Game Essay.bcf" 1765420756.30522 108898 b436abc1ac1ecf0c8899e958dbd3bcaf "pdflatex"
+["biber Imitation Game Essay"] 1765480860.39609 "Imitation Game Essay.bcf" "Imitation Game Essay.bbl" "Imitation Game Essay" 1765480862.14923 0
+  "../refs.bib" 1765480860.189 9428 3f61d55f42bdcce1f04f23e96a2534ef ""
+  "Imitation Game Essay.bcf" 1765480347.64752 109116 56031e534bd6dfda80e513387cfb30df "pdflatex"
   (generated)
   "Imitation Game Essay.bbl"
   "Imitation Game Essay.blg"
   (rewritten before read)
-["pdflatex"] 1765420755.6642 "/Users/dentonaingworth/Documents/CCSF/POLI 1/Imitation Game Essay/Imitation Game Essay.tex" "Imitation Game Essay.pdf" "Imitation Game Essay" 1765420756.34362 0
+["pdflatex"] 1765480347.00819 "/Users/dentonaingworth/Documents/CCSF/POLI 1/Imitation Game Essay/Imitation Game Essay.tex" "Imitation Game Essay.pdf" "Imitation Game Essay" 1765480862.14926 0
   "../citationfields.dbx" 1764481113.93673 107 992f051a1ad6c3722f565a5ccb971d57 ""
   "../citationformats.sty" 1764531410.31237 1268 1295c050622c1c3fd1c7bf4ef98aaf06 ""
-  "/Users/dentonaingworth/Documents/CCSF/POLI 1/Imitation Game Essay/Imitation Game Essay.tex" 1765420755.40787 5934 535acde6121083dbb61b0ca9bf1bd1e6 ""
+  "/Users/dentonaingworth/Documents/CCSF/POLI 1/Imitation Game Essay/Imitation Game Essay.tex" 1765480346.78758 6683 4f434dc6c5605201018a29740110270b ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -93,10 +93,10 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1727305248.69286 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1727305230 8221424 9bdbcc07e109911bb30a75dc8990d89e ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "Imitation Game Essay.aux" 1765420756.30415 1361 8e9b3daba429a6359b5433c8a535c300 "pdflatex"
-  "Imitation Game Essay.bbl" 1765341949.87401 8903 4ec007c907afdfc2c3c01b039af9424e "biber Imitation Game Essay"
-  "Imitation Game Essay.run.xml" 1765420756.30607 2469 4b398d61ae648182b1fb198577449e78 "pdflatex"
-  "Imitation Game Essay.tex" 1765420755.40787 5934 535acde6121083dbb61b0ca9bf1bd1e6 ""
+  "Imitation Game Essay.aux" 1765480347.6465 1736 3de3561fd27f9cd097a6d61fad727c5f "pdflatex"
+  "Imitation Game Essay.bbl" 1765480862.12794 11198 51cb49c2e89e7f78c12245bf4875b085 "biber Imitation Game Essay"
+  "Imitation Game Essay.run.xml" 1765480347.6483 2469 4b398d61ae648182b1fb198577449e78 "pdflatex"
+  "Imitation Game Essay.tex" 1765480346.78758 6683 4f434dc6c5605201018a29740110270b ""
   (generated)
   "Imitation Game Essay.aux"
   "Imitation Game Essay.bcf"

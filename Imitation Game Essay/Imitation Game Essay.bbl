@@ -107,6 +107,30 @@
       \field{title}{Alan Turing: The Enigma}
       \field{year}{1983}
     \endentry
+    \entry{pm-MachinesWhoThink}{book}{}
+      \name{author}{1}{}{%
+        {{hash=a00fb7c044e87327b5a03021bf279479}{%
+           family={McCulloch},
+           familyi={M\bibinitperiod},
+           given={Pamela},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {A.K. Peters, Ltd.}%
+      }
+      \strng{namehash}{a00fb7c044e87327b5a03021bf279479}
+      \strng{fullhash}{a00fb7c044e87327b5a03021bf279479}
+      \strng{bibnamehash}{a00fb7c044e87327b5a03021bf279479}
+      \strng{authorbibnamehash}{a00fb7c044e87327b5a03021bf279479}
+      \strng{authornamehash}{a00fb7c044e87327b5a03021bf279479}
+      \strng{authorfullhash}{a00fb7c044e87327b5a03021bf279479}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Machines Who Think}
+      \field{year}{2004}
+    \endentry
     \entry{diesel-InformationTheory}{article}{}
       \name{author}{2}{}{%
         {{hash=8f62a7a8b535a0a3285530036452983a}{%
@@ -216,6 +240,42 @@
       \field{title}{Swift and Slashing, Computer Topples Kasparov}
       \field{year}{1997}
       \field{dateera}{ce}
+    \endentry
+    \entry{lyrk-rogerian}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=793ba8d1da973ee05640a8dc76eae7a7}{%
+           family={Yao},
+           familyi={Y\bibinitperiod},
+           given={Lucy},
+           giveni={L\bibinitperiod}}}%
+        {{hash=fdcd4b9929ed35dc28ac7f5429ad52a1}{%
+           family={Kabir},
+           familyi={K\bibinitperiod},
+           given={Rian},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {StatPearls Publishing}%
+      }
+      \strng{namehash}{66bca7f1eeae9474c0b73f3662eb416a}
+      \strng{fullhash}{66bca7f1eeae9474c0b73f3662eb416a}
+      \strng{bibnamehash}{66bca7f1eeae9474c0b73f3662eb416a}
+      \strng{authorbibnamehash}{66bca7f1eeae9474c0b73f3662eb416a}
+      \strng{authornamehash}{66bca7f1eeae9474c0b73f3662eb416a}
+      \strng{authorfullhash}{66bca7f1eeae9474c0b73f3662eb416a}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{StatPearls [Internet]}
+      \field{title}{Person-Centered Therapy (Rogerian Therapy) [Updated 2023 Feb 9]}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2005.14165
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2005.14165
+      \endverb
     \endentry
   \enddatalist
 \endrefsection
