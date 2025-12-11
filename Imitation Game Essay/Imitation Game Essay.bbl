@@ -19,6 +19,129 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{de-studentsUseAI}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8777d0fd85417ece047ef35b953efd34}{%
+           family={Council},
+           familyi={C\bibinitperiod},
+           given={Digital\bibnamedelima Education},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{8777d0fd85417ece047ef35b953efd34}
+      \strng{fullhash}{8777d0fd85417ece047ef35b953efd34}
+      \strng{bibnamehash}{8777d0fd85417ece047ef35b953efd34}
+      \strng{authorbibnamehash}{8777d0fd85417ece047ef35b953efd34}
+      \strng{authornamehash}{8777d0fd85417ece047ef35b953efd34}
+      \strng{authorfullhash}{8777d0fd85417ece047ef35b953efd34}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{AI or Not AI: What Students Want}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.digitaleducationcouncil.com/post/digital-education-council-global-ai-student-survey-2024
+      \endverb
+      \verb{url}
+      \verb https://www.digitaleducationcouncil.com/post/digital-education-council-global-ai-student-survey-2024
+      \endverb
+    \endentry
+    \entry{rd-meditations}{book}{}
+      \name{author}{1}{}{%
+        {{hash=85b53ab52ed6237af9a9154f7df898cd}{%
+           family={Descartes},
+           familyi={D\bibinitperiod},
+           given={Rene},
+           giveni={R\bibinitperiod}}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=a439f3fee0eecb902a3ce1b2017b41b4}{%
+           family={Cottingham},
+           familyi={C\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{85b53ab52ed6237af9a9154f7df898cd}
+      \strng{fullhash}{85b53ab52ed6237af9a9154f7df898cd}
+      \strng{bibnamehash}{85b53ab52ed6237af9a9154f7df898cd}
+      \strng{authorbibnamehash}{85b53ab52ed6237af9a9154f7df898cd}
+      \strng{authornamehash}{85b53ab52ed6237af9a9154f7df898cd}
+      \strng{authorfullhash}{85b53ab52ed6237af9a9154f7df898cd}
+      \strng{translatorbibnamehash}{a439f3fee0eecb902a3ce1b2017b41b4}
+      \strng{translatornamehash}{a439f3fee0eecb902a3ce1b2017b41b4}
+      \strng{translatorfullhash}{a439f3fee0eecb902a3ce1b2017b41b4}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2nd}
+      \field{series}{Cambridge Texts in the History of Philosophy}
+      \field{subtitle}{With Selections from the Objections and Replies}
+      \field{title}{Meditations on First Philosophy}
+      \field{year}{1996}
+    \endentry
+    \entry{amt-enigma}{book}{}
+      \name{author}{1}{}{%
+        {{hash=af4af1aaeaf8849af906a36e95a2bd53}{%
+           family={Hodges},
+           familyi={H\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Simon \& Schuster}%
+      }
+      \strng{namehash}{af4af1aaeaf8849af906a36e95a2bd53}
+      \strng{fullhash}{af4af1aaeaf8849af906a36e95a2bd53}
+      \strng{bibnamehash}{af4af1aaeaf8849af906a36e95a2bd53}
+      \strng{authorbibnamehash}{af4af1aaeaf8849af906a36e95a2bd53}
+      \strng{authornamehash}{af4af1aaeaf8849af906a36e95a2bd53}
+      \strng{authorfullhash}{af4af1aaeaf8849af906a36e95a2bd53}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Alan Turing: The Enigma}
+      \field{year}{1983}
+    \endentry
+    \entry{diesel-InformationTheory}{article}{}
+      \name{author}{2}{}{%
+        {{hash=8f62a7a8b535a0a3285530036452983a}{%
+           family={Newell},
+           familyi={N\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=09cab6bba7885375ee5eadfb3e870692}{%
+           family={Simon},
+           familyi={S\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{511c6cfaeec92ba2af388bc46adbe5d5}
+      \strng{fullhash}{511c6cfaeec92ba2af388bc46adbe5d5}
+      \strng{bibnamehash}{511c6cfaeec92ba2af388bc46adbe5d5}
+      \strng{authorbibnamehash}{511c6cfaeec92ba2af388bc46adbe5d5}
+      \strng{authornamehash}{511c6cfaeec92ba2af388bc46adbe5d5}
+      \strng{authorfullhash}{511c6cfaeec92ba2af388bc46adbe5d5}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IRE Transactions on Information Theory}
+      \field{number}{3}
+      \field{title}{The logic theory machine--A complex information processing system}
+      \field{volume}{2}
+      \field{year}{1956}
+      \field{pages}{61\bibrangedash 79}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1109/TIT.1956.1056797
+      \endverb
+      \keyw{Logic;Information processing;Problem-solving;Humans;Formal languages;Information analysis;Heuristic algorithms;Automatic programming;Pattern recognition}
+    \endentry
     \entry{amt-b-9}{article}{}
       \name{author}{1}{}{%
         {{hash=1210277649f3c7541e2750ee21da6237}{%
@@ -33,6 +156,7 @@
       \strng{authorbibnamehash}{1210277649f3c7541e2750ee21da6237}
       \strng{authornamehash}{1210277649f3c7541e2750ee21da6237}
       \strng{authorfullhash}{1210277649f3c7541e2750ee21da6237}
+      \field{extraname}{1}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
       \field{labelnamesource}{author}
@@ -42,6 +166,56 @@
       \field{title}{Computing Machinery and Intelligence}
       \field{volume}{59}
       \field{year}{1950}
+    \endentry
+    \entry{amt-b-12}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1210277649f3c7541e2750ee21da6237}{%
+           family={Turing},
+           familyi={T\bibinitperiod},
+           given={Alan\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{fullhash}{1210277649f3c7541e2750ee21da6237}
+      \strng{bibnamehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{authorbibnamehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{authornamehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{authorfullhash}{1210277649f3c7541e2750ee21da6237}
+      \field{extraname}{2}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the London Mathematical Society}
+      \field{number}{2}
+      \field{title}{On computable numbers, with an application to the Entscheidungsproblem}
+      \field{volume}{42}
+      \field{year}{1937}
+    \endentry
+    \entry{bw-deepblue}{article}{}
+      \name{author}{1}{}{%
+        {{hash=bd3c211e8ee34b27c60c80a0551d368c}{%
+           family={Weber},
+           familyi={W\bibinitperiod},
+           given={Bruce},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{bd3c211e8ee34b27c60c80a0551d368c}
+      \strng{fullhash}{bd3c211e8ee34b27c60c80a0551d368c}
+      \strng{bibnamehash}{bd3c211e8ee34b27c60c80a0551d368c}
+      \strng{authorbibnamehash}{bd3c211e8ee34b27c60c80a0551d368c}
+      \strng{authornamehash}{bd3c211e8ee34b27c60c80a0551d368c}
+      \strng{authorfullhash}{bd3c211e8ee34b27c60c80a0551d368c}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{12}
+      \field{journaltitle}{The New York Times}
+      \field{month}{6}
+      \field{title}{Swift and Slashing, Computer Topples Kasparov}
+      \field{year}{1997}
+      \field{dateera}{ce}
     \endentry
   \enddatalist
 \endrefsection
