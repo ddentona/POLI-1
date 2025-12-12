@@ -4,6 +4,7 @@
 \usepackage{../citationformats}
 \usepackage[a4paper, margin=1in]{geometry}
 \usepackage[hidelinks]{hyperref}
+\hypersetup{breaklinks=true}
 \usepackage{bookmark}
 \usepackage{setspace}
 \usepackage{titlesec}
@@ -27,69 +28,74 @@
 \renewcommand{\thesubsubsection}{\thesubsection.\roman{subsubsection}}
 
 \setstretch{1.0}
+\setlength\bibitemsep{0.0pt}
 
 \begin{document}
     {\noindent
-    John Doe\\
-    Professor Smith\\
-    HIST 21: History of Computers\\
-    % Donald Aingworth\\
-    % Professor Ryer\\
-    % HIST 46: Independent Study\\
+    % John Doe\\
+    % Professor Smith\\
+    % HIST 21: History of Computers\\
+    Donald Aingworth\\
+    Professor Ryer\\
+    HIST 46: Independent Study\\
     \today}
 
     \begin{center}
         A History of Artificial Intelligence, with a Focus on the Imitation Game
     \end{center}
     \noindent
-    According to a 2024 survey by the Digital Education Council, 86\% of students claim to use Artificial Intelligence in their studies\cite{de-studentsUseAI}, raising the question of how successful this AI is relative to its earliest benchmarks.
-    An early test theorized for Artificial Intelligence came from the ``Father of Theoretical Computer Science'' Alan M. Turing in his 1950 paper \textit{Computing Machinery and Intelligence}\cite{amt-b-9}.
+    According to a 2024 survey by the Digital Education Council, 86\% of students claim to use Artificial Intelligence in their studies\cite{de-studentsUseAI}, raising the question of how successful conversational AI is relative to its earliest benchmarks.
+    An early test theorized for Artificial Intelligence came from Alan M. Turing in his 1950 paper \textit{Computing Machinery and Intelligence}\cite{amt-b-9}.
     For this test, Turing predicted a machine able to engage in conversation with people.
-    \uline{Despite AI's early focus on symbolic logic and later on game playing, recent developments of large language models and conversational AI have brought renewed historical relevance to Turing's philosophical test called the Imitation Game.}
+    \uline{Despite AI's early focus on symbolic logic and later on game playing, recent developments in large language models and conversational AI have brought renewed historical relevance to Turing's philosophical test called the Imitation Game.}
 
     In order to understand the impact of Turing's philosophical theories, familiarity with the Imitation Game is necessary. 
-    Turing's Imitation Game consists of a machine capable of replicating human conversation attempting to convince a person it is more likely to be human than a real person is.
-    Conversation about a mechanical mind prior to this was largely philosophical about whether an artificial brain is possible and the existence of a mind outside the brain\cite{rd-meditations}.
-    Turing effectively dismissed these questions by claiming that a more appropriate question is whether the machine is able to convince others that it is human.
+    Turing's Imitation Game consists of a machine pitted against a human in an effort to convince the third party that they are the human and the other is the machine.
+    Conversation about a mechanical mind prior to this had a heavy philosophical emphasis centered around dualism, the question of the existence of a mind outside the brain\cite{rd-meditations}.
+    Turing's Imitation Game reframed the question at hand by claiming that a more appropriate question is whether the machine is able to convince others that it is human.
     
-    Despite Turing's emphasis in his paper on testing conversational distinguishability of Artificial Intelligence from humans, early AI focused on symbolic logic and proving theorems. 
+    Despite the emphasis in \textit{Computing Machinery and Intelligence} on testing conversational distinguishability of Artificial Intelligence from humans, early AI focused on symbolic logic and proving theorems. 
     Turing's early work led to the development of symbolic logic machines.
-    Early and modern computers are largely based on Turing Machines, originally outlined in the 1937 paper \textit{On computable numbers, with an application to the Entscheidungsproblem}\cite{amt-b-12}.
+    Early and modern computers trace their conceptual origins to the Turing Machine, originally outlined in the 1937 paper \textit{On computable numbers, with an application to the Entscheidungsproblem}\cite{amt-b-12}.
     Allen Newell and Herbert Simon's 1956 report \textit{The logic theory machine--A complex information processing system}\cite{diesel-InformationTheory} and the associated program Logic Theorist was an early example of AI that operated on symbolic logic.
     Newell and Simon described the goal of Logic Theorist to be ``a program for constructing chains of theorems, not at random but in response to cues that make discovery of cues possible within a reasonable computing time''(\citeauthor{diesel-InformationTheory}, p.5).
-    These innovations were revolutionary, but they strayed from Turing's vision of conversational AI.
+    These innovations were revolutionary in their ability to teach reasoning to a machine, but they strayed from conversational AI.
+    Symbolic logic machines found proofs using axioms and logic. 
+    However, they were incredibly specialized to logic but faltered in other areas like conversation. 
+    When playing the Imitation Game, a topic the machine has low capacity in due to an extreme and unbalanced focus on logic uring its creation would be a breaking point.
 
     The game-playing machines also played a prominent role in the development of AI decades before the advancements required for conversational AI Turing initially described.
     An example of this is found in chess.
     Chess programs have existed since Turing and Champerowne created the Turochamp algorithm in 1950, which was able to play a game of chess\cite{amt-enigma}.
     Over the next half century, chess programs advanced until the IBM supercomputer Deep Blue won a six-game chess match against world chess champion Garry Kasparov in 1996\cite{bw-deepblue}.
-    These had similar concepts to the Turing Machine, in that the programs sought to play the same games that humans did.
-    However, they diverged from Turing when the computers' goal was to move beyond the skill capacity of humans.
+    These programs sought to play the same games that humans did.
+    Their innovation led to significant progress in optimization programs, which many fields of AI use.
+    However, like symbolic logic machines, their specialized nature lacked the ability to engage with humans beyond playing the game they were programmed for, and they would face a severe uphill battle in the Imitation Game.
 
     Conversational AI also has a long history, despite a slower start.
-    An early conversational AI was ELIZA, developed between 1964 and 1967 by Computer Scientist Joseph Weizenbaum.
+    An early conversational AI was ELIZA, developed between 1964 and 1967 by computer scientist Joseph Weizenbaum.
     ELIZA used pattern matching to simulate a Rogerian Psychoanalyst\cite{pm-MachinesWhoThink}. % Page 293-294
-    Rogerian Psychoanalysis focuses on a patient's own opinions and thoughts, with an emphasis on empathy and unconditional positive regard\cite{lyrk-rogerian}.
-    This and the limitations of the computer did limit the use of ELIZA, which failed in taasks such as genuine conversation and non-psychiatric use\cite{pm-MachinesWhoThink}. % Page 296
-    These limitations prevented ELIZA from success in the Imitation Game.
+    Rogerian Psychoanalysis focuses on a patient's own opinions and thoughts, with an emphasis on empathy and unconditional positive regard. % \cite{lyrk-rogerian}.
+    This and the physical constraints of the computer did limit the use of ELIZA, which failed in tasks such as non-psychiatric use\cite{pm-MachinesWhoThink}. % Page 296
+    These prevented ELIZA from success in the Imitation Game.
     However, advancements in machine learning would allow for advancements in conversational AI.
 
     One such advancement in machine learning was the model of Reinforcement Learning from Human Feedback (RLHF), which uses human opinion to improve its model and better resemble ideal human response.
-    RLHF takes an intial language model capable of responding to a wide range of prompts.
-    The language model is then presented to a (human) reviewer who gives the model a prompt.
-    Once the model and one or more similar models generate responses to the prompt, the responses are then shown to the reviewer, who chooses the best one\cite{lambert2022illustrating}.
-    This is most easily done with two models, but studies have trained models using up to four response options\cite{ziegler2020finetuninglanguagemodelshuman}.
-    A reward model then turns this selection into a single number that acts as a reward for each model, teling it what works well and what works poorly.
+    RLHF takes an initial language model capable of responding to a wide range of prompts.
+    It and one or more similar models generate responses to the prompt, from which the reviewer chooses the best one.
+    A reward model then turns this selection into a single number that acts as a reward for each model, telling it what works well and what works poorly.
     The model in turn improves itself based on this response\cite{lambert2022illustrating}.
-    This parallels the idea of a machine trained by reward and punishment, introduced by Turing in \textit{Computing Machinery and Intelligence}\cite{amt-b-9}.
+    This parallels a thought experiment introduced by Turing in \textit{Computing Machinery and Intelligence} of a machine trained by reward and punishment\cite{amt-b-9}.
     RLHF allows AI to improve its similarity to human conversation through direct response by humans.
-    This assists in building a congruence between conversational AI and human conversation, granting it better likelihood at success in the Imitation Game.
+    Using human response to set benchmarks allows the AI to test its resemblance to human conversation by asking its eventual reviewer directly.
+    This assists in building a congruence between conversational AI and human conversation, granting it better chances in the Imitation Game.
 
     Artificial Intelligence has a long history in Computer Science, from its introduction working with symbolic logic to learning and playing chess.
-    Ever since Alan Turing introduced the Imitation Game, the question of whether a conversational AI can convince others it is human has been on the mind of Computer Scientists and philosophers.
+    Ever since Alan Turing introduced the Imitation Game, the question of whether a conversational AI can convince others it is human has been on the mind of computer scientists and philosophers.
     Recent developments have allowed for conversational AI to better resemble human language. 
-    With the rise of use of AI in society, the question is extant of whether it can replace humans or will only ever asymptote them.
-    The answer to this question is found through Alan Turing's Imitation Game, which rises in relevance as Artificial Intelligence advances.
+    With the rise of use of AI in society, there remains a question of whether it can replace humans or will only ever approach but never reach them.
+    Alan Turing's Imitation Game is a long-standing benchmark for AI that should be strongly considered. 
+    As Artificial Intelligence advances from symbolic logic to playing games to pattern matching and language models that use RLHF, we come closer and closer to a machine that can sufficiently replicate human communication and potentially beat various opponents in the Imitation Game.
 
     % In \textit{Computing Machinery and Intelligence}, Alan Turing predicted a dialogue machine which would be able to mimic a human mind.
     % This prediction would be far ahead of its time, as AI/ML initially manifested as symbolic logic machines and eventually game-playing machines decades before Large Language Models achieved prominence.
