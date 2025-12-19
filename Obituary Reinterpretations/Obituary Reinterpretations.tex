@@ -1,0 +1,97 @@
+\documentclass[11pt]{extarticle}
+\usepackage[citestyle=numeric,datamodel=../citationfields]{biblatex}
+\addbibresource{../refs.bib}
+\usepackage{../citationformats}
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{breaklinks=true}
+\usepackage{bookmark}
+\usepackage{microtype}
+\appto\bibfont{\setlength{\emergencystretch}{.5em}}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{ulem}
+
+% \DeclareLabelname[letter]{
+% 	\field{author}
+% 	\field{addressee}
+% 	\field{date}
+% 	\field{location}
+% 	\field{title}
+% 	\field{note}
+% }
+% \DeclareLabelname[movie]{
+%     \field{director}
+%     \field{producer}
+% }
+
+\renewcommand{\thesection}{AMT-\Alph{section}}
+\renewcommand{\thesubsection}{AMT-\Alph{section}-\arabic{subsection}}
+\renewcommand{\thesubsubsection}{\thesubsection.\roman{subsubsection}}
+
+\setstretch{1.0}
+\setlength\bibitemsep{0.0pt}
+
+\begin{document}
+    {\noindent
+    John Doe\\
+    Professor Smith\\
+    HIST 21: History of Computers\\
+    % Donald Aingworth\\
+    % Professor Ryer\\
+    % HIST 46: Independent Study\\
+    \today}
+
+    \begin{center}
+        Alan the Computer Scientist: An analysis of obituary portrayals of Alan Turing
+    \end{center}
+    \noindent
+    \uline{In part due to the heavily abstract and philosophical nature of his work in mathematics, Alan Turing was reinterpreted by obituary writers by emphasizing his early work in computer science over his mathematical contributions, including his solution to the Entscheidungsproblem.}
+
+    Turing's abstract and philosophical work in mathematics was difficult to explain in simple terms, which discouraged writing about it in his obituary. 
+    An example of this abstraction is his PhD dissertation, \textit{Systems of Logic Based on Ordinals}, which was aimed at academics with a prior understanding of fields like analysis and mathematical logic that most obituary writers could not explain in simple terms\cite{amt-b-15}.
+    This rendered the concepts introduced in the paper almost inaccessible to a layman reading Turing's obituary and discoraged covering them.
+
+    Government secrecy acts prevented information about Turing's work in encryption from being widely known and referenced in his obituaries shortly after his death.
+    During the Second World War, Alan Turing was made a codebreaker at Bletchley Park, tasked with trying to break the encryption of the German Enigma Machine. % \cite{amt-enigma}.
+    The United Kingdom's Official Secrets Act of 1911, which was not repealed until 2023, stated that sharing anything that ``might be or is intended to be directly or indirectly useful to an enemy'' is a felony under British law\cite{uk-osa-1911}.
+    While Turing's role as a codebreaker was significant and arguably his most impactful work outside of devising his Turing machine, this act made government employees sharing information about their work at Bletchley Park very difficult, and discoraged sharing information with outsiders due to the penalty of sharing too much, notably with regards to Turing's role in codebreaking.
+    % As late as 1972, researchers and journalists were looking into Turing's role in Bletchley Park and its correlation \cite{amt-a-3-1}.
+    This limitation of access prevented information not disclosed by the United Kingdom Government from being shared by journalists and obituary writers.
+
+    Due to these limitations, the obituaries of Alan Turing published shortly after his death were limited in their converage of his life's work and focused on his work in computer science.
+    An early obituary was found in the Kings Report, published in 1954 by his alma mater Kings College Cambridge. % \cite{amt-enigma}.
+    The first paragraph of the obituary covers his mathematical work and education, including by noting his dissertation in ordinal logics and his paper \textit{On computable numbers with an application to the Entscheidungsproblem}.
+    This supplies the reader with a perspective of Turing as a mathematician by trade and grants him mathematical credibility.
+    However, the obituary fails to follow up on this credibility beyond a mention of his efforts in mathematical biology.
+    The obituary barely covers his work in Bletchley Park, writing ``On the Outbreak of war he was invited to join the foreign Office,'' and noting his awarding of the OBE, without going into further detail. 
+    This lack of detail may be credited to the effects of the aforementioned secrecy acts.
+    The obituary went on to mention his attempts to build computing machines (including the Manchester computor)\cite{amt-a-1-kings}, which portrays him as an early computer scientist, but does not connect it in layman's terms to his mathematical contributions, weakening its impact.
+    % The Kings Report framed Turing as a man who worked in mathematics at one point but left it behind before returning to it later in life, rather than a person continuously looking into new topics throughout mathematics that drew his interest.
+    Its target audience of students, faculty, and alumni of Kings College Cambridge were much closer to the target audience of Turing's earlier mathematics papers than laymen, giving them a better likelihood of understanding his work in mathematics and allowing the obituary's writers more freedom when writing about more specialized subjects.
+
+    An obituary published on June 10, 1994 in the Manchester Guardian focused much more on Turing's work with computers than the Kings Report.
+    The obituary, published within a week of his death, used most of its space covering Turing's attempts to create an electronic calculator and his claim that a machine of his had solved a problem in higher mathematics.
+    Absent from the paper is any mention of contributions to mathematics, barring mentioning he was a reader in mathematics at Manchester University\cite{amt-a-1-manchester54}.
+    Its omission of the mathematics that led to the creation of his computers portrays him as almost purely computer scientist or electrical engineer.
+    Its scope completely ignores most of his contributions to mathematics and science.
+    While targeted at the layman, this obituary paints a limited picture of Alan Turing that emphasizes his work with computers while largely ignoring his mathematical contributions.
+
+    An article written by M.H.A.N.\footnote{M.H.A.N. was likely Maxwell H.A. Newman, a mathematician who knew Alan Turing and worked with him on the Manchester Baby at the University of Manchester.} and published the following day in the Manchester Guardian gives more context to the importance of Turing's work.
+    The article talks about Turing from a more personal perspective, as a person rather than a list of his accomplishments. 
+    Turing's interests in mathematical theory, chemistry, and biology are noted, which is significantly more than the obituary notes\cite{amt-a-1-newmann}.
+    This article is a much more appropriate and realistic portrayal of Turing with a broader life than the original article does, focusing on Turing's work in mathematics and how that interacted with his contributions to other disciplines rather than merely the machines he made.
+
+    Notable about Alan Turing's contribution to Computer Science is that his most notable contribution was spread within the context of a mathematical proof.
+    The paper it appeared in, \textit{On computable numbers with an application to the Entscheidungsproblem}, was an answer to the Entscheidungsproblem, a question of whether there is a way to determine if a statement can be proven using given axioms. 
+    It used the Turing machine devised to prove the statement false, but said little about what else the Turing machine could be used for in the paper\cite{amt-b-12}.
+    The paper was furthermore produced in parallel with a proof of the same statement by Alonzo Church, which did not devise a machine for the sake of the proof. % \cite{church-lambdacalc}.
+    Regardless of the later use of the machine, Alan Turing devised it in a mathematical context.
+
+    The specialized nature of Alan Turing's mathematics and limited sources encouraged obituaries to emphasize his work in early computer science even though his best known contributions to the field began their life in mathematics.
+    While he is remembered currently for his work with computers, his contributions have a broad range which includes cryptoanalysis, ordinals, and low-level mathematical proofs.
+    % History is defined by the writer, and the obituary writer decides the first publicised opinion, which can decide how a person like Alan Turing, their accomplishments, and their role are viewed.
+
+    \raggedright
+    \printbibliography
+\end{document}
