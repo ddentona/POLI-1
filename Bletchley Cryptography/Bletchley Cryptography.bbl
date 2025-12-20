@@ -1,0 +1,187 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{kgb-electricity}{book}{}
+      \name{author}{1}{}{%
+        {{hash=983e66a85fa5e77fbc72ad3914e62ba9}{%
+           family={Beauchamp},
+           familyi={B\bibinitperiod},
+           given={Kenneth\bibnamedelima George},
+           giveni={K\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IET}%
+      }
+      \strng{namehash}{983e66a85fa5e77fbc72ad3914e62ba9}
+      \strng{fullhash}{983e66a85fa5e77fbc72ad3914e62ba9}
+      \strng{bibnamehash}{983e66a85fa5e77fbc72ad3914e62ba9}
+      \strng{authorbibnamehash}{983e66a85fa5e77fbc72ad3914e62ba9}
+      \strng{authornamehash}{983e66a85fa5e77fbc72ad3914e62ba9}
+      \strng{authorfullhash}{983e66a85fa5e77fbc72ad3914e62ba9}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Exhibiting Electricity}
+      \field{year}{1997}
+    \endentry
+    \entry{church-lambdacalc}{article}{}
+      \name{author}{1}{}{%
+        {{hash=eb8fba5b5e50ff0f327f47041fe3f891}{%
+           family={Church},
+           familyi={C\bibinitperiod},
+           given={Alonzo},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{eb8fba5b5e50ff0f327f47041fe3f891}
+      \strng{fullhash}{eb8fba5b5e50ff0f327f47041fe3f891}
+      \strng{bibnamehash}{eb8fba5b5e50ff0f327f47041fe3f891}
+      \strng{authorbibnamehash}{eb8fba5b5e50ff0f327f47041fe3f891}
+      \strng{authornamehash}{eb8fba5b5e50ff0f327f47041fe3f891}
+      \strng{authorfullhash}{eb8fba5b5e50ff0f327f47041fe3f891}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Symbolic Logic}
+      \field{number}{1}
+      \field{title}{A Note on the Entscheidungsproblem}
+      \field{volume}{1}
+      \field{year}{1936}
+    \endentry
+    \entry{rben-manchester}{online}{}
+      \name{author}{1}{}{%
+        {{hash=f280ac03ce21ac58d15c08982c49da20}{%
+           family={Napper},
+           familyi={N\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{f280ac03ce21ac58d15c08982c49da20}
+      \strng{fullhash}{f280ac03ce21ac58d15c08982c49da20}
+      \strng{bibnamehash}{f280ac03ce21ac58d15c08982c49da20}
+      \strng{authorbibnamehash}{f280ac03ce21ac58d15c08982c49da20}
+      \strng{authornamehash}{f280ac03ce21ac58d15c08982c49da20}
+      \strng{authorfullhash}{f280ac03ce21ac58d15c08982c49da20}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Archived from the original on 29 December 2008, retrieved 22 January 2009}
+      \field{title}{The Manchester Mark 1}
+      \field{year}{1999}
+      \verb{urlraw}
+      \verb https://web.archive.org/web/20081229132333/http://www.computer50.org/mark1/MM1.html
+      \endverb
+      \verb{url}
+      \verb https://web.archive.org/web/20081229132333/http://www.computer50.org/mark1/MM1.html
+      \endverb
+    \endentry
+    \entry{amt-b-9}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1210277649f3c7541e2750ee21da6237}{%
+           family={Turing},
+           familyi={T\bibinitperiod},
+           given={Alan\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{fullhash}{1210277649f3c7541e2750ee21da6237}
+      \strng{bibnamehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{authorbibnamehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{authornamehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{authorfullhash}{1210277649f3c7541e2750ee21da6237}
+      \field{extraname}{1}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{MIND}
+      \field{number}{236}
+      \field{title}{Computing Machinery and Intelligence}
+      \field{volume}{59}
+      \field{year}{1950}
+    \endentry
+    \entry{amt-b-12}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1210277649f3c7541e2750ee21da6237}{%
+           family={Turing},
+           familyi={T\bibinitperiod},
+           given={Alan\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{fullhash}{1210277649f3c7541e2750ee21da6237}
+      \strng{bibnamehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{authorbibnamehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{authornamehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{authorfullhash}{1210277649f3c7541e2750ee21da6237}
+      \field{extraname}{2}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the London Mathematical Society}
+      \field{number}{2}
+      \field{title}{On computable numbers, with an application to the Entscheidungsproblem}
+      \field{volume}{42}
+      \field{year}{1937}
+    \endentry
+    \entry{amt-b-22}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1210277649f3c7541e2750ee21da6237}{%
+           family={Turing},
+           familyi={T\bibinitperiod},
+           given={Alan\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Royal Society}%
+      }
+      \strng{namehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{fullhash}{1210277649f3c7541e2750ee21da6237}
+      \strng{bibnamehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{authorbibnamehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{authornamehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{authorfullhash}{1210277649f3c7541e2750ee21da6237}
+      \field{extraname}{3}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophical Transactions of the Royal Society of London. Series B, Biological Sciences}
+      \field{number}{641}
+      \field{title}{The Chemical Basis of Morphogenesis}
+      \field{volume}{237}
+      \field{year}{1952}
+      \field{pages}{37\bibrangedash 72}
+      \range{pages}{36}
+      \verb{urlraw}
+      \verb royalsocietypublishing.org
+      \endverb
+      \verb{url}
+      \verb royalsocietypublishing.org
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

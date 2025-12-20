@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.25)  19 DEC 2025 17:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.25)  19 DEC 2025 17:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/dentonaingworth/Documents/CCSF/POLI 1/Obituary Reinterpretations/Obituary Reinterpretations.tex"
-(/Users/dentonaingworth/Documents/CCSF/POLI 1/Obituary Reinterpretations/Obituary Reinterpretations.tex
+**"/Users/dentonaingworth/Documents/CCSF/POLI 1/Bletchley Cryptography/Bletchley Cryptography.tex"
+(/Users/dentonaingworth/Documents/CCSF/POLI 1/Bletchley Cryptography/Bletchley Cryptography.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 (/usr/local/texlive/2024/texmf-dist/tex/latex/extsizes/extarticle.cls
@@ -449,8 +449,8 @@ Package: ulem 2019/11/18
 )
 \@quotelevel=\count410
 \@quotereset=\count411
- (./Obituary Reinterpretations.aux)
-\openout1 = `"Obituary Reinterpretations.aux"'.
+ (./Bletchley Cryptography.aux)
+\openout1 = `"Bletchley Cryptography.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
 LaTeX Font Info:    ... okay on input line 35.
@@ -478,11 +478,11 @@ File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `"Obituary Reinterpretations.bcf"'.
+\openout3 = `"Bletchley Cryptography.bcf"'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file '"Obituary Reinterpretations".bbl' found.
- (./Obituary Reinterpretations.bbl)
+Package biblatex Info: ... file '"Bletchley Cryptography".bbl' found.
+ (./Bletchley Cryptography.bbl)
 Package biblatex Info: Reference section=0 on input line 35.
 Package biblatex Info: Reference segment=0 on input line 35.
 
@@ -541,42 +541,42 @@ Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
-) [1
+)
+Overfull \hbox (24.65546pt too wide) in paragraph at lines 48--50
+|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []
+ []
+
+[1
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <6> on input line 80.
-LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <5> on input line 80.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [2] (./Obituary Reinterpretations.aux)
+LaTeX Font Info:    External font `cmex7' loaded for size
+(Font)              <6> on input line 88.
+ [2] (./Bletchley Cryptography.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-Package logreq Info: Writing requests to '"Obituary Reinterpretations".run.xml'.
-\openout1 = `"Obituary Reinterpretations.run.xml"'.
+Package logreq Info: Writing requests to '"Bletchley Cryptography".run.xml'.
+\openout1 = `"Bletchley Cryptography.run.xml"'.
 
  ) 
 Here is how much of TeX's memory you used:
- 17894 strings out of 474116
- 317612 string characters out of 5743682
- 1950187 words of memory out of 5000000
- 40012 multiletter control sequences out of 15000+600000
- 566708 words of font info for 102 fonts, out of 8000000 for 9000
+ 17859 strings out of 474116
+ 317114 string characters out of 5743682
+ 1962187 words of memory out of 5000000
+ 40002 multiletter control sequences out of 15000+600000
+ 565012 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,8n,81p,1097b,1302s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
-
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "Obituary Reinterpretations.pdf" (2 pages, 111413 bytes).
+ 66i,5n,81p,1089b,1355s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on "Bletchley Cryptography.pdf" (2 pages, 80587 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 54 compressed objects within 1 object stream
- 10 named destinations out of 1000 (max. 500000)
- 18945 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 59 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
+ 9 named destinations out of 1000 (max. 500000)
+ 14849 words of extra memory for PDF output out of 17280 (max. 10000000)
 

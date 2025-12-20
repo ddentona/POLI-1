@@ -1,0 +1,89 @@
+\documentclass[11pt]{extarticle}
+\usepackage[citestyle=numeric,datamodel=../citationfields]{biblatex}
+\addbibresource{../refs.bib}
+\usepackage{../citationformats}
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{breaklinks=true}
+\usepackage{bookmark}
+\usepackage{microtype}
+\appto\bibfont{\setlength{\emergencystretch}{.5em}}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{ulem}
+
+% \DeclareLabelname[letter]{
+% 	\field{author}
+% 	\field{addressee}
+% 	\field{date}
+% 	\field{location}
+% 	\field{title}
+% 	\field{note}
+% }
+% \DeclareLabelname[movie]{
+%     \field{director}
+%     \field{producer}
+% }
+
+\renewcommand{\thesection}{AMT-\Alph{section}}
+\renewcommand{\thesubsection}{AMT-\Alph{section}-\arabic{subsection}}
+\renewcommand{\thesubsubsection}{\thesubsection.\roman{subsubsection}}
+
+\setstretch{1.0}
+\setlength\bibitemsep{0.0pt}
+
+\begin{document}
+    {\noindent
+    % John Doe\\
+    % Professor Smith\\
+    % HIST 21: History of Computers\\
+    Donald Aingworth\\
+    Professor Ryer\\
+    HIST 46: Independent Study\\
+    \today}
+
+    \begin{center}
+        Alan the Cryptographer: An analysis of the impact of Alan Turing's work in cryptography
+    \end{center}
+    \noindent
+    \uline{Alan Turing's work at Bletchley Park assigned him a focus on cryptography, which encouraged studies of and work in fields like computer science and engineering after the war. This experimentation in an area of applied math explains how he came to apply his experience in logic and analysis from before the Second World War to computer science and engineering. The advancement of cryptography was part of a larger pattern of the Second World War granting rapid progress to ideas which were rarely brought to prominence outside the urgency of a war.}
+
+    Alan Turing's assigned work on cryptography demonstrated a continuation of his tendency to devise applications of mathematical concepts, including machines.
+    An example of this comes from his paper \textit{On computable numbers with an Entscheidungsproblem}, where he imagined a machine able to compute numbers that he used in his proof\cite{amt-b-12}.
+    Turing's use of a theoretical machine contrasted with his contemporaries. 
+    Other mathematicians often worked in purely mathematical terms, such as Church's proof of the same problem that invented a new calculus rather than a machine\cite{church-lambdacalc}.
+    While Church's proof worked and was completed a year before Turing's own, the abstract nature of the proof made the application require more work by an engineer to develop a manner to apply Church's theory than Turing's machine. 
+    This difference highlighted Turing's ability to devise easy-to-imagine tools usable to solve problems rather than manipulatable abstract concepts.
+    This skill became increasingly relevant as the application of electrical machines became of greater interest to the public\cite{kgb-electricity}. 
+    Fortunately, cryptography's need to test many transformations repetitively was applicable to machines. 
+    At Bletchley Park, in order to decrypt the Enigma machine, for which Turing and his team created a decryption machine called the Bombe.
+    The Bombe itself was used to test different potential decryptions mechanically rather than by hand, reducing the time taken.
+    While the British Government kept secret most of what took place at Bletchley Park for years after its end, the process gave the Bombe's creators experience to mechanically apply mathematical concepts, notably Turing making machines. 
+
+    After the war, Turing knew and could do more to make machines based on his mathematical work.
+    The most clear manifestation of this was the Manchester Mark 1, an early general use computer based on his concept of a Turing machine in \textit{On computable numbers}.
+    This application of Turing's theoretical machine was a proof of concept of his own machine and used his experience with the Bombe.
+    Unlike the Bombe, which was a single-purpose machine, the Manchester Mark 1 was a general purpose machine able to run a large variety of programs based on set rules\cite{rben-manchester}.
+    The creation of a general purpose machine marked a continuation of progress of machines towards usability for any program, what became known as Turing complete.
+    Furthermore, it enabled Turing to apply his mathematical concepts in the form of a machine, which would serve him in his later work in philosophy and biology.
+
+    The continuation of Turing's application skills came with an exploration of further concepts.
+    This exploration is notable in his paper \textit{Computing Machinery and Intelligence}, which explored a theoretical mechanical mind and how it could be tested\cite{amt-b-9}.
+    This paper was related to his prior work, as it used his earlier work on computers that centered around their mechanics.
+    It also theorized about their applications, such as with Artificial Intelligence.
+    It marked new applicational ground for Turing to cover in his research, applying the philosophical to his mathematical and physical work with early computers.
+    Even more of an expansion and application of math was his work in mathematical biology, which included his paper \textit{The Chemical Basis of Morphogenesis} about the development of skin and fur patterns in animals.
+    The topic had origins in biology and chemistry rather than mathematics\cite{amt-b-22}. 
+    This involved Turing applying similar strategies with abstract machines to both chemistry and biology. 
+    Turing expanded his applications of mathematics into varied disciplines after completing the Manchester Machine, extending his legacy even further.
+
+    Alan Turing's work at Bletchley Park had a large impact on his studies an work after the war.
+    His experience building the Bombe was used to create a general use computer in the form of the Manchester Mark 1.
+    Together, these allowed Turing the insight to apply his mathematical and logical talents further, including to his philosophical theories about Artificial Intelligence and providing a mathematical basis for morphogenesis.
+    The intense environment and high stakes of the Second World War required quick progress and heavy investment in these fields so as to gain the advantage over the enemy.
+    In contexts like Bletchley Park, Turing could collaborate with scientists and engineers across disciplines by working towards a common goal. 
+    Turing achieved remarkable progress that would be relevant even beyond the scope of the war, which suggests an explanation of Turing's interdisciplinary progress over time. 
+
+    \raggedright
+    \printbibliography
+\end{document}
